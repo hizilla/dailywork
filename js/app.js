@@ -223,6 +223,7 @@
         "</div>" +
         (it.desc ? '<div class="issue-desc">' + escape(it.desc) + "</div>" : "") +
         '<div class="issue-meta">' +
+          (it.cat ? '<span class="badge cat-' + escape(it.cat) + '">' + escape(it.cat) + "</span>" : "") +
           '<span class="badge diff-' + escape(diff) + '">' + escape(diff) + "</span>" +
           (it.status && it.status !== "open" ? '<span class="badge">' + escape(it.status) + "</span>" : "") +
           tags.map(function (t) { return '<span class="badge tag">' + escape(t) + "</span>"; }).join("") +

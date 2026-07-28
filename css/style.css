@@ -1,11 +1,11 @@
 :root {
-  --bg: #0d1117;
-  --bg-soft: #161b22;
-  --bg-card: #1c2128;
-  --border: #2d333b;
+  --bg: #1b2128;
+  --bg-soft: #262d36;
+  --bg-card: #303843;
+  --border: #3d4754;
   --text: #e6edf3;
-  --text-dim: #8b949e;
-  --text-mute: #6e7681;
+  --text-dim: #9aa4b1;
+  --text-mute: #74808f;
   --accent: #58a6ff;
   --green: #3fb950;
   --yellow: #d29922;
@@ -443,6 +443,11 @@ a:hover { text-decoration: underline; }
 .badge.diff-easy { color: var(--green); border-color: rgba(63,185,80,0.4); }
 .badge.diff-medium { color: var(--yellow); border-color: rgba(210,153,34,0.4); }
 .badge.diff-hard { color: var(--red); border-color: rgba(248,81,73,0.4); }
+.badge.cat-bug { color: var(--red); border-color: rgba(248,81,73,0.4); }
+.badge.cat-feature-gap { color: var(--accent); border-color: rgba(88,166,255,0.4); }
+.badge.cat-perf { color: var(--yellow); border-color: rgba(210,153,34,0.4); }
+.badge.cat-test-gap { color: var(--purple); border-color: rgba(188,140,255,0.4); }
+.badge.cat-doc-gap { color: var(--green); border-color: rgba(63,185,80,0.4); }
 .badge.tag { color: var(--text-dim); }
 
 /* mptcp 活动列表复用 .timeline 样式 */
