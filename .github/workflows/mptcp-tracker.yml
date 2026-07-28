@@ -1,0 +1,39 @@
+name: mptcp-tracker
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # daily UTC 02:00 (~ Beijing 10:00)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/mptcp-tracker.yml'
+      - '.github/scripts/mptcp_fetch.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mptcp-tracker
+  cancel-in-progress: true
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch mptcp activity from lore & GitHub
+        run: python3 .github/scripts/mptcp_fetch.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet data/mptcp-activity.md; then
+            echo "no changes, skip commit"
+          else
+            git add data/mptcp-activity.md
+            git commit -m "chore: update mptcp activity ($(date -u +%Y-%m-%d))"
+            git push
+          fi

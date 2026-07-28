@@ -190,6 +190,106 @@
     $("stat-contribs").textContent = sum;
   }
 
+  // ---------- 渲染：mptcp 可贡献问题 ----------
+  function renderMptcpIssues(issues) {
+    var open = issues.filter(function (i) {
+      return (i.status || "open").toLowerCase() === "open";
+    });
+    $("mptcp-count-open").textContent = open.length;
+    if (issues.length === 0) {
+      $("mptcp-issues").innerHTML = '<div class="empty">暂无问题</div>';
+      return;
+    }
+    var order = { easy: 0, medium: 1, hard: 2 };
+    var sorted = issues.slice().sort(function (a, b) {
+      return (order[a.diff] || 9) - (order[b.diff] || 9);
+    });
+    $("mptcp-issues").innerHTML = sorted.map(function (it) {
+      var loc = it.file ? (it.file + (it.line ? ":" + it.line : "")) : "";
+      var url = it.file
+        ? "https://github.com/torvalds/linux/blob/master/" + it.file + (it.line ? "#L" + it.line : "")
+        : null;
+      var locHtml = loc
+        ? (url
+            ? '<a class="issue-loc" href="' + escape(url) + '" target="_blank" rel="noopener">' + escape(loc) + "</a>"
+            : '<span class="issue-loc">' + escape(loc) + "</span>")
+        : "";
+      var diff = it.diff || "medium";
+      var tags = (it.tags || "").split(",").map(function (t) { return t.trim(); }).filter(Boolean);
+      return '<div class="issue">' +
+        '<div class="issue-head">' +
+          '<span class="issue-title">' + escape(it.title || "(无标题)") + "</span>" +
+          locHtml +
+        "</div>" +
+        (it.desc ? '<div class="issue-desc">' + escape(it.desc) + "</div>" : "") +
+        '<div class="issue-meta">' +
+          '<span class="badge diff-' + escape(diff) + '">' + escape(diff) + "</span>" +
+          (it.status && it.status !== "open" ? '<span class="badge">' + escape(it.status) + "</span>" : "") +
+          tags.map(function (t) { return '<span class="badge tag">' + escape(t) + "</span>"; }).join("") +
+        "</div>" +
+      "</div>";
+    }).join("");
+  }
+
+  // ---------- 解析：mptcp 近期动态 ----------
+  // 支持格式：
+  //   ## YYYY-MM-DD
+  //   - [lore] subject text
+  //     https://lore.kernel.org/...
+  //   - [gh] subject
+  //     https://github.com/...
+  function parseMptcpActivity(md) {
+    var days = [];
+    var current = null;
+    var lastItem = null;
+    md.split(/\r?\n/).forEach(function (line) {
+      var h = line.match(/^##\s+(.*)$/);
+      if (h) {
+        current = { date: h[1].trim(), items: [] };
+        days.push(current);
+        lastItem = null;
+        return;
+      }
+      if (!current) return;
+      var li = line.match(/^\s*-\s+(.*)$/);
+      if (li) {
+        var text = li[1].trim();
+        var src = null;
+        var m = text.match(/^\[([a-zA-Z]+)\]\s*(.*)$/);
+        if (m) { src = m[1].toLowerCase(); text = m[2].trim(); }
+        lastItem = { src: src, text: text, url: null };
+        current.items.push(lastItem);
+      } else {
+        var u = line.match(/^\s+(https?:\/\/\S+)\s*$/);
+        if (u && lastItem) lastItem.url = u[1];
+      }
+    });
+    return days;
+  }
+
+  // ---------- 渲染：mptcp 近期动态 ----------
+  function renderMptcpActivity(days) {
+    if (days.length === 0) {
+      $("mptcp-activity").innerHTML = '<li class="empty">等待 Actions 首次运行填充</li>';
+      return;
+    }
+    $("mptcp-activity").innerHTML = days.map(function (d) {
+      return '<li class="day">' +
+        '<div class="day-date">' + escape(d.date) + "</div>" +
+        '<ul class="day-items">' +
+          d.items.map(function (it) {
+            var srcHtml = it.src
+              ? '<span class="src src-' + escape(it.src) + '">' + escape(it.src) + "</span>"
+              : "";
+            var text = escape(it.text);
+            if (it.url) text = '<a href="' + escape(it.url) + '" target="_blank" rel="noopener">' + text + "</a>";
+            return "<li>" + srcHtml + text + "</li>";
+          }).join("") +
+        "</ul>" +
+      "</li>";
+    }).join("");
+  }
+
   // ---------- 错误态 ----------
   function fail(el, msg) {
     if (typeof el === "string") el = $(el);
@@ -204,7 +304,9 @@
       { url: "data/projects.md", render: renderProjects, parse: parseProjects, target: "cards-doing" },
       { url: "data/todos.md", render: renderTodos, parse: parseTodos, target: "todo" },
       { url: "data/activities.md", render: renderActivities, parse: parseActivities, target: "timeline" },
-      { url: "data/contributions.md", render: renderHeatmap, parse: parseContribs, target: "heatmap" }
+      { url: "data/contributions.md", render: renderHeatmap, parse: parseContribs, target: "heatmap" },
+      { url: "data/mptcp-issues.md", render: renderMptcpIssues, parse: parseProjects, target: "mptcp-issues" },
+      { url: "data/mptcp-activity.md", render: renderMptcpActivity, parse: parseMptcpActivity, target: "mptcp-activity" }
     ];
 
     await Promise.all(tasks.map(async function (t) {

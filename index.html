@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lee · 开源工作看板</title>
-  <meta name="description" content="Lee 的日常开源工作看板：项目进度、贡献热力图、活动时间线与周度待办。">
+  <title>Lee's Daily Open</title>
+  <meta name="description" content="Lee 的日常开源工作台：项目进度、MPTCP 跟踪、贡献热力图、活动时间线与周度待办。">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="hero">
     <div class="hero-inner">
-      <h1 class="hero-title">Lee<span class="dot">.</span>看板</h1>
-      <p class="hero-sub">日常开源工作看板 · 一页看清进展</p>
+      <h1 class="hero-title">Lee's Daily <span class="accent">Open</span></h1>
+      <p class="hero-sub">日常开源工作 · 重点跟踪 MPTCP 子系统进展与可贡献问题</p>
       <ul class="stats" id="stats">
         <li><span class="stat-num" id="stat-projects">-</span><span class="stat-label">活跃项目</span></li>
         <li><span class="stat-num" id="stat-contribs">-</span><span class="stat-label">近期贡献</span></li>
@@ -39,6 +39,23 @@
         <div class="kanban-col" data-status="done">
           <h3>Done<span class="col-count" id="count-done">0</span></h3>
           <div class="kanban-cards" id="cards-done"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block mptcp-block">
+      <div class="block-head">
+        <h2>MPTCP 跟踪</h2>
+        <span class="block-note">源码 TODO · lore 邮件动态 · data/mptcp-*.md</span>
+      </div>
+      <div class="mptcp-grid">
+        <div class="mptcp-col">
+          <h3>可贡献问题<span class="col-count" id="mptcp-count-open">0</span></h3>
+          <div class="mptcp-issues" id="mptcp-issues"></div>
+        </div>
+        <div class="mptcp-col">
+          <h3>近期动态<span class="block-note" id="mptcp-activity-ts"></span></h3>
+          <ol class="timeline" id="mptcp-activity"></ol>
         </div>
       </div>
     </section>

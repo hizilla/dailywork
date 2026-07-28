@@ -358,3 +358,105 @@ a:hover { text-decoration: underline; }
   text-align: center;
   padding: 12px;
 }
+
+/* Hero accent (站名 Open 高亮) */
+.hero-title .accent { color: var(--accent); }
+
+/* MPTCP 跟踪板块 */
+.mptcp-block { background: linear-gradient(180deg, rgba(88,166,255,0.04) 0%, transparent 100%); }
+.mptcp-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 24px;
+}
+.mptcp-col {
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
+}
+.mptcp-col h3 {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-dim);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.mptcp-col h3::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--purple);
+}
+.mptcp-col h3 .block-note { margin-left: auto; }
+
+.mptcp-issues { display: flex; flex-direction: column; gap: 10px; max-height: 520px; overflow-y: auto; }
+.mptcp-issues::-webkit-scrollbar { width: 6px; }
+.mptcp-issues::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+.issue {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--purple);
+  border-radius: 6px;
+  padding: 10px 12px;
+  transition: border-color 0.15s ease;
+}
+.issue:hover { border-color: var(--accent); }
+.issue-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+.issue-title { font-size: 13px; font-weight: 600; color: var(--text); }
+.issue-loc {
+  font-size: 11px;
+  font-family: ui-monospace, monospace;
+  color: var(--accent);
+  margin-left: auto;
+}
+.issue-loc:hover { text-decoration: underline; }
+.issue-desc {
+  font-size: 12px;
+  color: var(--text-dim);
+  line-height: 1.55;
+  margin-bottom: 8px;
+}
+.issue-meta { display: flex; gap: 6px; flex-wrap: wrap; }
+.badge {
+  display: inline-block;
+  font-size: 10px;
+  padding: 1px 7px;
+  border-radius: 10px;
+  font-family: ui-monospace, monospace;
+  background: var(--bg);
+  color: var(--text-mute);
+  border: 1px solid var(--border);
+}
+.badge.diff-easy { color: var(--green); border-color: rgba(63,185,80,0.4); }
+.badge.diff-medium { color: var(--yellow); border-color: rgba(210,153,34,0.4); }
+.badge.diff-hard { color: var(--red); border-color: rgba(248,81,73,0.4); }
+.badge.tag { color: var(--text-dim); }
+
+/* mptcp 活动列表复用 .timeline 样式 */
+.mptcp-col .timeline .day-items li a { color: var(--text-dim); }
+.mptcp-col .timeline .day-items li a:hover { color: var(--accent); }
+.mptcp-col .timeline .day-items li .src {
+  font-size: 10px;
+  font-family: ui-monospace, monospace;
+  padding: 1px 5px;
+  border-radius: 8px;
+  margin-right: 6px;
+  background: var(--bg);
+  color: var(--text-mute);
+  border: 1px solid var(--border);
+}
+.src-lore { color: var(--purple) !important; border-color: rgba(188,140,255,0.4) !important; }
+.src-gh { color: var(--accent) !important; border-color: rgba(88,166,255,0.4) !important; }
