@@ -2,25 +2,21 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
-## 2026-07-31
-- [lore] Re: [PATCH net 0/2] tcp: diag: fix unbounded bucket lock hold in diag dump paths — zihan xi
-  https://lore.kernel.org/mptcp/CAANe3eSbNtS1eGjuX4aFa_-p5FKU9esvT652g5eywKL3=Zt74w@mail.gmail.com/
-- [lore] Re: [PATCH mptcp-next] Squash to "selftests: mptcp: sockopt: add is_mptcp_socket helper" — MPTCP CI
-  https://lore.kernel.org/mptcp/373217ea-b74b-934d-4210-7858f9ffeef8@gmail.com/
-- [lore] [PATCH mptcp-next] Squash to "selftests: mptcp: sockopt: add is_mptcp_socket helper" — Geliang Tang
-  https://lore.kernel.org/mptcp/1b103d397cf4a506c608d9ade586e98db770daec.1785460213.git.tanggeliang@kylinos.cn/
+## 2026-08-01
+- [lore] Re: [PATCH mptcp-net 0/6] mptcp: pm: userspace: properly deal with the ID0 case — Mat Martineau
+  https://lore.kernel.org/mptcp/317887c0-8298-3b5a-5cb1-70beaf968a04@kernel.org/
 
-## 2026-07-30
-- [lore] Re: [PATCH net 1/5] mptcp: avoid combining some incoming suboptions — Jakub Kicinski
-  https://lore.kernel.org/mptcp/20260730132705.58e65d98@kernel.org/
-- [lore] Re: [PATCH net 0/2] tcp: diag: fix unbounded bucket lock hold in diag dump paths — Kuniyuki Iwashima
-  https://lore.kernel.org/mptcp/CAAVpQUCLAk3qwGuxg1nHeRR5XX6jFt-9PF+Qq+1TZZTEA+DTmQ@mail.gmail.com/
-- [lore] Re: [PATCH net v2 1/1] mptcp: fix request ownership when cloning reqsk — Matthieu Baerts
-  https://lore.kernel.org/mptcp/d13300c5-596d-45a4-8686-9eba63125e3e@kernel.org/
-- [lore] Re: [PATCH mptcp-next 6/6] mptcp: defer sk_data_ready to the worker — Paolo Abeni
-  https://lore.kernel.org/mptcp/a1d3a399-afbc-4d61-80f9-9926f83da195@redhat.com/
-- [lore] Re: [PATCH mptcp-next 5/6] mptcp: trim the duplicated skb head at receive enqueue — Paolo Abeni
-  https://lore.kernel.org/mptcp/0ac1a2d7-1426-4218-968b-deeea450a48c@redhat.com/
-- [lore] [mptcp:export 9/43] .github/FUNDING.yml: warning: ignored by one of the .gitignore files — kernel test robot
-  https://lore.kernel.org/mptcp/202607301902.ifqwk8Xn-lkp@intel.com/
+## 2026-07-31
+- [lore] net/mptcp/options.c:1207:39: warning: implicit conversion from 'enum <anonymous>' to 'enum linux_mptcp_mib_field' — kernel test robot
+  https://lore.kernel.org/mptcp/202607312002.iM0J3v4Q-lkp@intel.com/
+- [lore] Re: [PATCH mptcp-next 0/2] mptcp: pm: net-next port of the alloc-during-teardown leak fix — Matthieu Baerts
+  https://lore.kernel.org/mptcp/a303c170-7290-406b-ad63-69af313877ad@kernel.org/
+- [lore] Re: [PATCH mptcp-next v3] selftests: mptcp: diag: fix stack buffer overflow in get_subflow_info() — Matthieu Baerts
+  https://lore.kernel.org/mptcp/9a65ac39-48fb-4398-8527-8ab6eca1c794@kernel.org/
+- [lore] Re: [PATCH mptcp-next v12 0/4] mptcp: MSG_ERRQUEUE support on the parent socket — Matthieu Baerts
+  https://lore.kernel.org/mptcp/81f26efb-2a53-44f7-a55d-51792507e32c@kernel.org/
+- [lore] Re: [PATCH mptcp-net 0/4] Squash to "mptcp: misc fixes for v7.2-rc6" — MPTCP CI
+  https://lore.kernel.org/mptcp/efceb759-d224-0200-cc98-a565ab16c260@gmail.com/
+- [lore] [PATCH net-next v2 5/5] mptcp: implemented OoO queue pruning — Matthieu Baerts (NGI0)
+  https://lore.kernel.org/mptcp/20260731-net-next-mptcp-oooq-pruning-v2-5-24838164fa21@kernel.org/
 
