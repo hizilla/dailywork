@@ -9,7 +9,15 @@
 </head>
 <body>
   <header class="hero">
+    <div class="theme-toggle-wrap">
+      <input type="checkbox" id="theme-toggle" class="theme-toggle-input" aria-label="切换深浅主题" />
+      <label for="theme-toggle" class="theme-toggle" title="切换深浅主题">
+        <span class="icon icon-moon">🌙</span>
+        <span class="icon icon-sun">☀️</span>
+      </label>
+    </div>
     <div class="hero-inner">
+      <span class="hero-eyebrow"><i class="dot"></i>日常开源工作台</span>
       <h1 class="hero-title">Lee's Daily <span class="accent">Open</span></h1>
       <p class="hero-sub">日常开源工作 · 重点跟踪 MPTCP 子系统进展与可贡献问题</p>
       <ul class="stats" id="stats">
