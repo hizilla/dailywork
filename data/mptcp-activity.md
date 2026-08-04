@@ -2,9 +2,29 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
+## 2026-08-04
+- [lore] Re: [PATCH v2 MPTCP-net] pm: userspace: fix address ID overflow when all IDs exhausted — MPTCP CI
+  https://lore.kernel.org/mptcp/785f01cf-5bd8-3623-8636-8dd042e3b0d3@gmail.com/
+- [lore] Re: [PATCH MPTCH-next] selftests: add test for userspace PM address ID overflow — MPTCP CI
+  https://lore.kernel.org/mptcp/fe330efb-ea81-8d83-b953-cbacb352de38@gmail.com/
+- [lore] [PATCH v2 MPTCP-net] pm: userspace: fix address ID overflow when all IDs exhausted — luoqing
+  https://lore.kernel.org/mptcp/20260804022350.181323-1-l1138897701@163.com/
+- [lore] [PATCH MPTCH-next] selftests: add test for userspace PM address ID overflow — luoqing
+  https://lore.kernel.org/mptcp/20260804022350.181323-2-l1138897701@163.com/
+
 ## 2026-08-03
-- [lore] Re: [PATCH mptcp-next v3] mptcp: honour configured min/max RTO in retransmit paths — Kalpan Jani
-  https://lore.kernel.org/mptcp/19fc5f77283.636e19ae49491.8985382660057875751@mpiricsoftware.com/
+- [lore] Re: [PATCH mptcp-next v3] mptcp: honour configured min/max RTO in retransmit paths — Matthieu Baerts
+  https://lore.kernel.org/mptcp/b47803d8-d192-46bd-97de-da4baa74fbc0@kernel.org/
+- [lore] [PATCH net v2 8/8] mptcp: reclaim forward-allocated memory on RX path errors — Matthieu Baerts (NGI0)
+  https://lore.kernel.org/mptcp/20260803-net-mptcp-misc-fixes-7-2-rc6-v2-8-b8f496d71664@kernel.org/
+- [lore] [PATCH net v2 7/8] mptcp: fastopen: only mark MPTFO subflows with SYN data — Matthieu Baerts (NGI0)
+  https://lore.kernel.org/mptcp/20260803-net-mptcp-misc-fixes-7-2-rc6-v2-7-b8f496d71664@kernel.org/
+- [lore] [PATCH net v2 6/8] mptcp: pm: fix memory leak from alloc-during-teardown race — Matthieu Baerts (NGI0)
+  https://lore.kernel.org/mptcp/20260803-net-mptcp-misc-fixes-7-2-rc6-v2-6-b8f496d71664@kernel.org/
+- [lore] [PATCH net v2 5/8] selftests: mptcp: join: mark tests with data corruption as failed — Matthieu Baerts (NGI0)
+  https://lore.kernel.org/mptcp/20260803-net-mptcp-misc-fixes-7-2-rc6-v2-5-b8f496d71664@kernel.org/
+- [lore] [PATCH net v2 4/8] mptcp: pm: fix data race in add_addr timer callback — Matthieu Baerts (NGI0)
+  https://lore.kernel.org/mptcp/20260803-net-mptcp-misc-fixes-7-2-rc6-v2-4-b8f496d71664@kernel.org/
 
 ## 2026-08-02
 - [lore] Re: [PATCH mptcp-next] Squash to "selftests: mptcp: cover IP_RECVERR sockopt propagation" — Matthieu Baerts
@@ -21,18 +41,4 @@
 ## 2026-08-01
 - [lore] Re: [PATCH mptcp-net 0/6] mptcp: pm: userspace: properly deal with the ID0 case — Mat Martineau
   https://lore.kernel.org/mptcp/317887c0-8298-3b5a-5cb1-70beaf968a04@kernel.org/
-
-## 2026-07-31
-- [lore] net/mptcp/options.c:1207:39: warning: implicit conversion from 'enum <anonymous>' to 'enum linux_mptcp_mib_field' — kernel test robot
-  https://lore.kernel.org/mptcp/202607312002.iM0J3v4Q-lkp@intel.com/
-- [lore] Re: [PATCH mptcp-next 0/2] mptcp: pm: net-next port of the alloc-during-teardown leak fix — Matthieu Baerts
-  https://lore.kernel.org/mptcp/a303c170-7290-406b-ad63-69af313877ad@kernel.org/
-- [lore] Re: [PATCH mptcp-next v3] selftests: mptcp: diag: fix stack buffer overflow in get_subflow_info() — Matthieu Baerts
-  https://lore.kernel.org/mptcp/9a65ac39-48fb-4398-8527-8ab6eca1c794@kernel.org/
-- [lore] Re: [PATCH mptcp-next v12 0/4] mptcp: MSG_ERRQUEUE support on the parent socket — Matthieu Baerts
-  https://lore.kernel.org/mptcp/81f26efb-2a53-44f7-a55d-51792507e32c@kernel.org/
-- [lore] Re: [PATCH mptcp-net 0/4] Squash to "mptcp: misc fixes for v7.2-rc6" — MPTCP CI
-  https://lore.kernel.org/mptcp/efceb759-d224-0200-cc98-a565ab16c260@gmail.com/
-- [lore] [PATCH net-next v2 5/5] mptcp: implemented OoO queue pruning — Matthieu Baerts (NGI0)
-  https://lore.kernel.org/mptcp/20260731-net-next-mptcp-oooq-pruning-v2-5-24838164fa21@kernel.org/
 
