@@ -2,7 +2,17 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
+## 2026-08-10
+- [lore] Re: [PATCH net] mptcp: upgrade network refcount before socket lock — gang.yan
+  https://lore.kernel.org/mptcp/4e57509daf45aa8968140e7a7279ad0699249bf6@linux.dev/
+
 ## 2026-08-09
+- [lore] Re: [PATCH net v3 2/2] mptcp: fix MP_CAPABLE token migration when cloning reqsk — Matthieu Baerts
+  https://lore.kernel.org/mptcp/5ac3773c-4a6f-4796-a43f-545c3c42271c@kernel.org/
+- [lore] Re: [PATCH net] mptcp: upgrade network refcount before socket lock — MPTCP CI
+  https://lore.kernel.org/mptcp/2077ce2a-dd5c-20d2-8bc6-7b4723f5b1ae@gmail.com/
+- [lore] [PATCH net] mptcp: upgrade network refcount before socket lock — Runyu Xiao
+  https://lore.kernel.org/mptcp/20260809091949.3618191-1-runyu.xiao@seu.edu.cn/
 - [lore] Re: [PATCH v2 1/3] ipv6: extract and export ip6_sock_set_tclass helpers — Geliang Tang
   https://lore.kernel.org/mptcp/33e7a2b83f7de3651a3ab77732c869d15408c00f.camel@kernel.org/
 
