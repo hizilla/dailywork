@@ -2,9 +2,23 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
+## 2026-08-11
+- [lore] Re: [PATCH v2 2/3] nvme-tcp: support IPv6 traffic class — Stanislav Fomichev
+  https://lore.kernel.org/mptcp/anptYps5IoeGDCnt@devvm7509.cco0.facebook.com/
+
 ## 2026-08-10
-- [lore] Re: [PATCH net] mptcp: upgrade network refcount before socket lock — gang.yan
-  https://lore.kernel.org/mptcp/4e57509daf45aa8968140e7a7279ad0699249bf6@linux.dev/
+- [lore] Re: [PATCH mptcp-net v2 2/3] mptcp: use READ/WRITE_ONCE for allow_subflows — Matthieu Baerts
+  https://lore.kernel.org/mptcp/9bd91066-7a30-4f6b-aaa4-3f53c85291d7@kernel.org/
+- [lore] Re: [PATCH mptcp-net v2 1/3] mptcp: fallback to TCP on MP_FAIL with a single subflow — Matthieu Baerts
+  https://lore.kernel.org/mptcp/b2828798-945d-4dbf-80c3-3d77a293a5e2@kernel.org/
+- [lore] Re: [PATCH mptcp-net v2 0/3] mptcp: fix TCP fallback on single-subflow MP_FAIL — Matthieu Baerts
+  https://lore.kernel.org/mptcp/738bee18-3404-4a51-9393-e32cee609f66@kernel.org/
+- [lore] Re: [PATCH mptcp-net v3] mptcp: pm: userspace: unify entry free path via RCU callback — Matthieu Baerts
+  https://lore.kernel.org/mptcp/05693030-fe2c-4eed-8ed1-fb60da3273f7@kernel.org/
+- [lore] Re: [PATCH net] mptcp: upgrade network refcount before socket lock — Kuniyuki Iwashima
+  https://lore.kernel.org/mptcp/20260810170249.3669017-1-kuniyu@google.com/
+- [lore] Re: [PATCH next mptcp-next] mptcp: pm: userspace: make remove_addr_entry static — Matthieu Baerts
+  https://lore.kernel.org/mptcp/e556092c-8c37-45c6-9b8b-65f801c5efbc@kernel.org/
 
 ## 2026-08-09
 - [lore] Re: [PATCH net v3 2/2] mptcp: fix MP_CAPABLE token migration when cloning reqsk — Matthieu Baerts
