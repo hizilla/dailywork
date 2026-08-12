@@ -2,9 +2,23 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
+## 2026-08-12
+- [lore] Re: [PATCH net-next v3 0/7] mptcp: out-of-order queue pruning — patchwork-bot+netdevbpf
+  https://lore.kernel.org/mptcp/178649884163.1230679.9378736754022898187.git-patchwork-notify@kernel.org/
+
 ## 2026-08-11
-- [lore] Re: [PATCH v2 2/3] nvme-tcp: support IPv6 traffic class — Stanislav Fomichev
-  https://lore.kernel.org/mptcp/anptYps5IoeGDCnt@devvm7509.cco0.facebook.com/
+- [lore] Re: [PATCH mptcp v2] mptcp: restore full join state in syncookie MP_JOIN reconstruction — MPTCP CI
+  https://lore.kernel.org/mptcp/8ecd376e-3f2f-e138-a31c-bacd130d7462@gmail.com/
+- [lore] Re: [PATCH mptcp] mptcp: fix uninitialized local_id in syncookie MP_JOIN reconstruction — MPTCP CI
+  https://lore.kernel.org/mptcp/731b407a-3f05-2429-3876-de03a732083f@gmail.com/
+- [lore] Re: [PATCH v2 2/3] nvme-tcp: support IPv6 traffic class — Geliang Tang
+  https://lore.kernel.org/mptcp/078f34213dd05a3fe519eca68313379d9c038805.camel@kernel.org/
+- [lore] [PATCH mptcp v2] mptcp: restore full join state in syncookie MP_JOIN reconstruction — Harshit Varu
+  https://lore.kernel.org/mptcp/20260811222325.90426-1-harshitvaru666@gmail.com/
+- [lore] Re: [PATCH mptcp] mptcp: fix uninitialized local_id in syncookie MP_JOIN reconstruction — sashiko-bot
+  https://lore.kernel.org/mptcp/20260811220809.CBC431F000E9@smtp.kernel.org/
+- [lore] [PATCH mptcp] mptcp: fix uninitialized local_id in syncookie MP_JOIN reconstruction — Harshit Varu
+  https://lore.kernel.org/mptcp/20260811215135.87756-1-harshitvaru666@gmail.com/
 
 ## 2026-08-10
 - [lore] Re: [PATCH mptcp-net v2 2/3] mptcp: use READ/WRITE_ONCE for allow_subflows — Matthieu Baerts
@@ -15,34 +29,6 @@
   https://lore.kernel.org/mptcp/738bee18-3404-4a51-9393-e32cee609f66@kernel.org/
 - [lore] Re: [PATCH mptcp-net v3] mptcp: pm: userspace: unify entry free path via RCU callback — Matthieu Baerts
   https://lore.kernel.org/mptcp/05693030-fe2c-4eed-8ed1-fb60da3273f7@kernel.org/
-- [lore] Re: [PATCH net] mptcp: upgrade network refcount before socket lock — Kuniyuki Iwashima
-  https://lore.kernel.org/mptcp/20260810170249.3669017-1-kuniyu@google.com/
-- [lore] Re: [PATCH next mptcp-next] mptcp: pm: userspace: make remove_addr_entry static — Matthieu Baerts
-  https://lore.kernel.org/mptcp/e556092c-8c37-45c6-9b8b-65f801c5efbc@kernel.org/
-
-## 2026-08-09
-- [lore] Re: [PATCH net v3 2/2] mptcp: fix MP_CAPABLE token migration when cloning reqsk — Matthieu Baerts
-  https://lore.kernel.org/mptcp/5ac3773c-4a6f-4796-a43f-545c3c42271c@kernel.org/
-- [lore] Re: [PATCH net] mptcp: upgrade network refcount before socket lock — MPTCP CI
-  https://lore.kernel.org/mptcp/2077ce2a-dd5c-20d2-8bc6-7b4723f5b1ae@gmail.com/
-- [lore] [PATCH net] mptcp: upgrade network refcount before socket lock — Runyu Xiao
-  https://lore.kernel.org/mptcp/20260809091949.3618191-1-runyu.xiao@seu.edu.cn/
-- [lore] Re: [PATCH v2 1/3] ipv6: extract and export ip6_sock_set_tclass helpers — Geliang Tang
-  https://lore.kernel.org/mptcp/33e7a2b83f7de3651a3ab77732c869d15408c00f.camel@kernel.org/
-
-## 2026-08-08
-- [lore] Re: [PATCH v2 1/3] ipv6: extract and export ip6_sock_set_tclass helpers — Jakub Kicinski
-  https://lore.kernel.org/mptcp/20260808125953.1e8488e3@kernel.org/
-- [lore] Re: [PATCH v2 mptcp-next 7/7] mptcp: implemented OoO queue pruning — Matthieu Baerts
-  https://lore.kernel.org/mptcp/eb437699-4e3a-422d-93fa-3efde2985189@kernel.org/
-- [lore] Re: [PATCH v2 0/3] nvme-tcp: add IPv6 traffic class support — MPTCP CI
-  https://lore.kernel.org/mptcp/cf164fff-5751-41d5-955a-a67bcf826745@gmail.com/
-- [lore] [PATCH v2 3/3] nvmet-tcp: support IPv6 traffic class — Geliang Tang
-  https://lore.kernel.org/mptcp/ef1d3f9cbd321aeb0a49f37685f2fb7e01c60623.1786171863.git.tanggeliang@kylinos.cn/
-- [lore] [PATCH v2 2/3] nvme-tcp: support IPv6 traffic class — Geliang Tang
-  https://lore.kernel.org/mptcp/3f5e4c84d3fe41601b29468fa4128d4639d56685.1786171863.git.tanggeliang@kylinos.cn/
-- [lore] [PATCH v2 1/3] ipv6: extract and export ip6_sock_set_tclass helpers — Geliang Tang
-  https://lore.kernel.org/mptcp/d06402e4fa9e1c879296dfb8ca5a73e34d4b13d2.1786171863.git.tanggeliang@kylinos.cn/
 
 ## 2026-08-07
 - [gh] Issue #628: mptcp: incoming options: add a MIB counter for received invalid options
