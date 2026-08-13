@@ -2,33 +2,23 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
+## 2026-08-13
+- [lore] Re: [PATCH mptcp-next 0/2] mptcp: MIB counter for invalid option — gang.yan
+  https://lore.kernel.org/mptcp/42782d2aaa30cf1328bfea950c5f430eb9c98bd3@linux.dev/
+
 ## 2026-08-12
-- [lore] Re: [PATCH net-next v3 0/7] mptcp: out-of-order queue pruning — patchwork-bot+netdevbpf
-  https://lore.kernel.org/mptcp/178649884163.1230679.9378736754022898187.git-patchwork-notify@kernel.org/
-
-## 2026-08-11
-- [lore] Re: [PATCH mptcp v2] mptcp: restore full join state in syncookie MP_JOIN reconstruction — MPTCP CI
-  https://lore.kernel.org/mptcp/8ecd376e-3f2f-e138-a31c-bacd130d7462@gmail.com/
-- [lore] Re: [PATCH mptcp] mptcp: fix uninitialized local_id in syncookie MP_JOIN reconstruction — MPTCP CI
-  https://lore.kernel.org/mptcp/731b407a-3f05-2429-3876-de03a732083f@gmail.com/
-- [lore] Re: [PATCH v2 2/3] nvme-tcp: support IPv6 traffic class — Geliang Tang
-  https://lore.kernel.org/mptcp/078f34213dd05a3fe519eca68313379d9c038805.camel@kernel.org/
-- [lore] [PATCH mptcp v2] mptcp: restore full join state in syncookie MP_JOIN reconstruction — Harshit Varu
-  https://lore.kernel.org/mptcp/20260811222325.90426-1-harshitvaru666@gmail.com/
-- [lore] Re: [PATCH mptcp] mptcp: fix uninitialized local_id in syncookie MP_JOIN reconstruction — sashiko-bot
-  https://lore.kernel.org/mptcp/20260811220809.CBC431F000E9@smtp.kernel.org/
-- [lore] [PATCH mptcp] mptcp: fix uninitialized local_id in syncookie MP_JOIN reconstruction — Harshit Varu
-  https://lore.kernel.org/mptcp/20260811215135.87756-1-harshitvaru666@gmail.com/
-
-## 2026-08-10
-- [lore] Re: [PATCH mptcp-net v2 2/3] mptcp: use READ/WRITE_ONCE for allow_subflows — Matthieu Baerts
-  https://lore.kernel.org/mptcp/9bd91066-7a30-4f6b-aaa4-3f53c85291d7@kernel.org/
-- [lore] Re: [PATCH mptcp-net v2 1/3] mptcp: fallback to TCP on MP_FAIL with a single subflow — Matthieu Baerts
-  https://lore.kernel.org/mptcp/b2828798-945d-4dbf-80c3-3d77a293a5e2@kernel.org/
-- [lore] Re: [PATCH mptcp-net v2 0/3] mptcp: fix TCP fallback on single-subflow MP_FAIL — Matthieu Baerts
-  https://lore.kernel.org/mptcp/738bee18-3404-4a51-9393-e32cee609f66@kernel.org/
-- [lore] Re: [PATCH mptcp-net v3] mptcp: pm: userspace: unify entry free path via RCU callback — Matthieu Baerts
-  https://lore.kernel.org/mptcp/05693030-fe2c-4eed-8ed1-fb60da3273f7@kernel.org/
+- [lore] Re: [PATCH mptcp-net 0/4] mptcp: a few fixes — Matthieu Baerts
+  https://lore.kernel.org/mptcp/cbdf8539-65c0-4bf2-ab43-bf3481b0971f@kernel.org/
+- [lore] [mptcp:export-net 1/10] .git_markup: warning: ignored by one of the .gitignore files — kernel test robot
+  https://lore.kernel.org/mptcp/202608130227.3MeLtJJN-lkp@intel.com/
+- [lore] [PATCH mptcp-net 1/4] mptcp: being below memory limit is a likely() condition — Paolo Abeni
+  https://lore.kernel.org/mptcp/93777494d7c03ae68a72357e95b4f54c49addb46.1786553006.git.pabeni@redhat.com/
+- [lore] [PATCH mptcp-net 2/4] mptcp: avoid pruning for OoW data — Paolo Abeni
+  https://lore.kernel.org/mptcp/1e1fa2d6fb756ab5a88a17c0d6e834f361cb9bdb.1786553006.git.pabeni@redhat.com/
+- [lore] [PATCH mptcp-net 4/4] mptcp: do not reschedule the RTX timer for fallback sockets — Paolo Abeni
+  https://lore.kernel.org/mptcp/517def06b272a22027775a60334f3f68347510ae.1786553006.git.pabeni@redhat.com/
+- [lore] [PATCH mptcp-net 3/4] mptcp: remove unneeded READ_ONCE() annotation — Paolo Abeni
+  https://lore.kernel.org/mptcp/d96944a628414e33eea6e52ef5371d71d0e1c7a3.1786553006.git.pabeni@redhat.com/
 
 ## 2026-08-07
 - [gh] Issue #628: mptcp: incoming options: add a MIB counter for received invalid options
