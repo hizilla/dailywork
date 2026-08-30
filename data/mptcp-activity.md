@@ -2,6 +2,10 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
+## 2026-08-30
+- [lore] Re: [PATCH mptcp-net v3 2/8] mptcp: pm: userspace: lookup: match port in priority — Geliang Tang
+  https://lore.kernel.org/mptcp/bb74f942d14b1335bd5be83ca8b2c750cc8063b5.camel@kernel.org/
+
 ## 2026-08-29
 - [lore] Re: [PATCH net v3 0/2] tcp: fix use-after-free in do_tcp_getsockopt() — patchwork-bot+netdevbpf
   https://lore.kernel.org/mptcp/178798141089.2932800.13873660526223105626.git-patchwork-notify@kernel.org/
