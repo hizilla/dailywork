@@ -2,27 +2,33 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
-## 2026-09-03
-- [lore] Re: [PATCH mptcp-next 2/2] selftests: mptcp: convert iptables to nftables for mptcp_join.sh — Hangbin Liu
-  https://lore.kernel.org/mptcp/apkVLlKisTGIS_n_@fedora/
-- [lore] Re: [RFC] Mitigating Sashiko-driven iteration noise on the main MPTCP list — gang.yan
-  https://lore.kernel.org/mptcp/2e771c1355c7d5d3faf42feed55ced63bc5869cb@linux.dev/
-- [lore] [RFC] Mitigating Sashiko-driven iteration noise on the main MPTCP list — gang.yan
-  https://lore.kernel.org/mptcp/b13525eb141d18e1fe326fec4e71b53704cdc291@linux.dev/
-- [lore] Re: [PATCH net-next v4] mptcp: normalize seq numbers reported in mptcp_info — sashiko-bot
-  https://lore.kernel.org/mptcp/20260903060100.B2E361F000E9@smtp.kernel.org/
-- [lore] [PATCH net-next v4] mptcp: normalize seq numbers reported in mptcp_info — Kalpan Jani
-  https://lore.kernel.org/mptcp/20260903054853.3400545-1-kalpan.jani@mpiricsoftware.com/
-- [lore] Re: [PATCH mptcp-next 1/2] mptcp: pm: bound extra_subflows admission on userspace PM — quanyeyang
-  https://lore.kernel.org/mptcp/U6pTh6EPoeSgwE2EHl9q6Urj4YiZFTfOINajSmMtooO9YzNmfQXdeB4pXt8P9Nh6FjtZrqjgs50Rlkxdm5Hyfgz65nUYNcmwmV76PVrTeUY=@proton.me/
+## 2026-09-04
+- [lore] Re: [PATCH mptcp-next v3 0/3] mptcp: pm: fix reachable extra_subflows guards — MPTCP CI
+  https://lore.kernel.org/mptcp/4877adc8-c838-ac57-bad9-df6dd1c5b416@gmail.com/
+- [lore] Re: [PATCH mptcp-next v3 2/3] mptcp: pm: skip extra_subflows accounting on disconnected msk — sashiko-bot
+  https://lore.kernel.org/mptcp/20260904052852.E49251F00A3D@smtp.kernel.org/
+- [lore] [PATCH mptcp-next v3 3/3] mptcp: pm: userspace: cap extra_subflows on Netlink subflow creation — Tao Cui
+  https://lore.kernel.org/mptcp/20260904051150.1196427-4-cui.tao@linux.dev/
+- [lore] [PATCH mptcp-next v3 2/3] mptcp: pm: skip extra_subflows accounting on disconnected msk — Tao Cui
+  https://lore.kernel.org/mptcp/20260904051150.1196427-3-cui.tao@linux.dev/
+- [lore] [PATCH mptcp-next v3 1/3] mptcp: pm: bound extra_subflows admission on userspace PM — Tao Cui
+  https://lore.kernel.org/mptcp/20260904051150.1196427-2-cui.tao@linux.dev/
+- [lore] [PATCH mptcp-next v3 0/3] mptcp: pm: fix reachable extra_subflows guards — Tao Cui
+  https://lore.kernel.org/mptcp/20260904051150.1196427-1-cui.tao@linux.dev/
 
-## 2026-09-02
-- [lore] Re: [PATCH mptcp-net] mptcp: pm: cap userspace extra_subflows at U8_MAX — MPTCP CI
-  https://lore.kernel.org/mptcp/cc9e769a-5a0a-1adf-a906-09e61a5159ed@gmail.com/
-- [lore] Re: [PATCH mptcp-next 2/2] mptcp: pm: skip extra_subflows accounting on disconnected msk — Matthieu Baerts
-  https://lore.kernel.org/mptcp/ce1ad12f-1da7-457f-b5a7-187ee174c63e@kernel.org/
-- [lore] Re: [PATCH mptcp-net] mptcp: pm: cap userspace extra_subflows at U8_MAX — Matthieu Baerts
-  https://lore.kernel.org/mptcp/67a2bdd2-6936-4d1d-8d38-18be961d35c4@kernel.org/
+## 2026-09-03
+- [lore] [PATCH stable 6.12] tcp: fix potential race in tcp_v6_syn_recv_sock() — Florian Fainelli
+  https://lore.kernel.org/mptcp/20260903174016.689839-1-florian.fainelli@broadcom.com/
+- [lore] Re: [PATCH mptcp-next v2 0/3] mptcp: pm: fix reachable extra_subflows guards — MPTCP CI
+  https://lore.kernel.org/mptcp/5e6167da-b5c0-3c7a-71de-a2c89cecc477@gmail.com/
+- [lore] Re: [PATCH mptcp-next 3/3] mptcp: options: reset parsing in case of invalidity — Matthieu Baerts
+  https://lore.kernel.org/mptcp/32c614b0-b103-4962-8206-4a25ee7cd766@kernel.org/
+- [lore] Re: [PATCH mptcp-next v2 3/3] mptcp: pm: userspace: cap extra_subflows on Netlink subflow creation — Matthieu Baerts
+  https://lore.kernel.org/mptcp/e962d225-caf9-4be6-af80-e7cc0f34a2ec@kernel.org/
+- [lore] Re: [PATCH mptcp-next v2 3/3] mptcp: pm: userspace: cap extra_subflows on Netlink subflow creation — Matthieu Baerts
+  https://lore.kernel.org/mptcp/37501367-99e7-4ce0-a590-b8d5c1f9be0e@kernel.org/
+- [lore] Re: [PATCH mptcp-next v2 3/3] mptcp: pm: userspace: cap extra_subflows on Netlink subflow creation — sashiko-bot
+  https://lore.kernel.org/mptcp/20260903132757.5A7C11F000E9@smtp.kernel.org/
 
 ## 2026-08-24
 - [gh] Issue #629: PM: avoid pm->extra_subflows underflow warnings
