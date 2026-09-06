@@ -2,6 +2,18 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
+## 2026-09-05
+- [lore] Re: [PATCH stable 5.10 v2] tcp: fix potential race in tcp_v6_syn_recv_sock() — sashiko-bot
+  https://lore.kernel.org/mptcp/20260905183532.2713D1F00A3E@smtp.kernel.org/
+- [lore] Re: [PATCH stable 6.1 v2] tcp: fix potential race in tcp_v6_syn_recv_sock() — sashiko-bot
+  https://lore.kernel.org/mptcp/20260905183531.74CA31F00A3D@smtp.kernel.org/
+- [lore] Re: [PATCH stable 6.12 v2] tcp: fix potential race in tcp_v6_syn_recv_sock() — sashiko-bot
+  https://lore.kernel.org/mptcp/20260905183530.C5ACE1F00A3A@smtp.kernel.org/
+- [lore] Re: [PATCH stable 6.6 v2] tcp: fix potential race in tcp_v6_syn_recv_sock() — sashiko-bot
+  https://lore.kernel.org/mptcp/20260905183520.1F2E51F00A3A@smtp.kernel.org/
+- [lore] Re: [PATCH mptcp-next v3] selftests: mptcp: print stats before socket closure — Geliang Tang
+  https://lore.kernel.org/mptcp/24e7da3ea0b33d5dca970449cf615a4c95ecceb8.camel@kernel.org/
+
 ## 2026-09-04
 - [lore] Re: [PATCH stable 6.12] tcp: fix potential race in tcp_v6_syn_recv_sock() — Florian Fainelli
   https://lore.kernel.org/mptcp/5bd8deed-ea25-42ed-81b4-85afe8d3cf52@broadcom.com/
