@@ -2,19 +2,29 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
-## 2026-09-07
-- [lore] Re: [PATCH mptcp-net v4] mptcp: fix data-race in mptcp_subflow_get_send / tcp_ack — MPTCP CI
-  https://lore.kernel.org/mptcp/83c967cf-ce19-2a38-9a26-4c9de00a2e3a@gmail.com/
-- [lore] Re: [PATCH stable 6.12 v2] tcp: fix potential race in tcp_v6_syn_recv_sock() — Greg KH
-  https://lore.kernel.org/mptcp/2026090706-dehydrate-hence-4fe8@gregkh/
-- [lore] Re: [PATCH stable 6.12 v2] tcp: fix potential race in tcp_v6_syn_recv_sock() — Joakim Tjernlund (Nokia)
-  https://lore.kernel.org/mptcp/22b7bae35253cebe11b515d11b245d7c551c0f29.camel@nokia.com/
-- [lore] [PATCH mptcp-net v4] mptcp: fix data-race in mptcp_subflow_get_send / tcp_ack — Quanye Yang via B4 Relay
-  https://lore.kernel.org/mptcp/20260907-mptcp-snd-una-race-v4-1-6cd76668a8e3@proton.me/
-- [lore] Re: [PATCH mptcp-net v3 3/3] tcp: fix data-race in do_recvmmsg / mptcp_recvmsg — quanyeyang
-  https://lore.kernel.org/mptcp/kyD8pyPeuFAMSwx2Xib9rP3IJNRIwPnmHhA3gJro06kJTAPQ_5RVXucZrTglP3oSoltaLn9vhYO7G559fEg1sA2J8TDIiiVAkhtD3yGPLbM=@proton.me/
-- [lore] Re: [PATCH mptcp-net v3 1/3] mptcp: fix data-race in __mptcp_retrans / mptcp_incoming_options — Matthieu Baerts
-  https://lore.kernel.org/mptcp/f61eb670-8db3-4c97-92fd-b66294ef222e@kernel.org/
+## 2026-09-09
+- [lore] Re: [PATCH mptcp-next v3 0/2] mptcp: shrink struct mptcp_options_received — MPTCP CI
+  https://lore.kernel.org/mptcp/f085fdc1-f640-90a2-0953-359fa6a1fd16@gmail.com/
+- [lore] [PATCH mptcp-next v3 1/2] mptcp: split FASTCLOSE key from rcvr_key — Quanye Yang via B4 Relay
+  https://lore.kernel.org/mptcp/20260909-mptcp-shrink-opt-rx-v2-v3-1-92bb3009a665@proton.me/
+- [lore] [PATCH mptcp-next v3 0/2] mptcp: shrink struct mptcp_options_received — Quanye Yang via B4 Relay
+  https://lore.kernel.org/mptcp/20260909-mptcp-shrink-opt-rx-v2-v3-0-92bb3009a665@proton.me/
+- [lore] [PATCH mptcp-next v3 2/2] mptcp: shrink struct mptcp_options_received — Quanye Yang via B4 Relay
+  https://lore.kernel.org/mptcp/20260909-mptcp-shrink-opt-rx-v2-v3-2-92bb3009a665@proton.me/
+
+## 2026-09-08
+- [lore] Re: [PATCH mptcp-net 0/2] mptcp: options: avoid printing uninit data — MPTCP CI
+  https://lore.kernel.org/mptcp/a888a483-363c-6dd5-5ab3-fc580692e313@gmail.com/
+- [lore] Re: [PATCH net v6 0/2] mptcp: fix request migration ownership — MPTCP CI
+  https://lore.kernel.org/mptcp/6cb7409a-4be0-6d9a-8206-ae38f5f9eff2@gmail.com/
+- [lore] Re: [PATCH mptcp-next v3] selftests: mptcp: print stats before socket closure — Matthieu Baerts
+  https://lore.kernel.org/mptcp/735a6655-b3ac-4352-8a35-0e54ac2c7ffd@kernel.org/
+- [lore] Re: [PATCH net] mptcp: fix use-after-free of the subflow context on the delegated list — Matthieu Baerts
+  https://lore.kernel.org/mptcp/994ecd4f-eaf9-4d2f-95a3-611083207d6c@kernel.org/
+- [lore] Re: [PATCH mptcp-next v2] mptcp: shrink struct mptcp_options_received — Matthieu Baerts
+  https://lore.kernel.org/mptcp/7ebf53f7-b09d-4d38-a1e5-8f4853627386@kernel.org/
+- [lore] [PATCH mptcp-net 2/2] mptcp: options: dss: avoid printing uninit csum — Matthieu Baerts (NGI0)
+  https://lore.kernel.org/mptcp/20260908-mptcp-opt-read-debug-v1-2-b3e74549b6f6@kernel.org/
 
 ## 2026-09-04
 - [gh] Issue #631: [syzbot] WARNING in mptcp_pm_announced_alloc (2) — still hit after #620 was closed
