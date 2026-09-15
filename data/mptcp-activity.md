@@ -2,27 +2,23 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
-## 2026-09-14
-- [lore] [PATCH net 2/2] tls: drop duplicate check_app_limited in tls_push_sg — Geliang Tang
-  https://lore.kernel.org/mptcp/d98eef55bd417f7166a30a9998a3b34e7f0b229d.1789368148.git.tanggeliang@kylinos.cn/
-- [lore] [PATCH bpf 1/2] bpf: drop duplicate check_app_limited in tcp_bpf_push — Geliang Tang
-  https://lore.kernel.org/mptcp/f12f1d886c8ff2b6f6e48f797ccc861037eda685.1789368148.git.tanggeliang@kylinos.cn/
-- [lore] [PATCH 0/2] Drop redundant tcp_rate_check_app_limited calls — Geliang Tang
-  https://lore.kernel.org/mptcp/cover.1789368148.git.tanggeliang@kylinos.cn/
+## 2026-09-15
+- [lore] Re: [PATCH mptcp-net] selftests: mptcp: join: dump stats with right title — Geliang Tang
+  https://lore.kernel.org/mptcp/adfae8144b8e274753ea15d8798b8c29d4e139d9.camel@kernel.org/
 
-## 2026-09-13
-- [lore] Re: [PATCH mptcp-next v5 06/16] mptcp: implement psock_update_sk_prot for sockmap — Matthieu Baerts
-  https://lore.kernel.org/mptcp/0a4bbaf9-7cc0-4ec8-b630-261a0b324e86@kernel.org/
-- [lore] Re: [PATCH mptcp-next v5 05/16] bpf: drop duplicate check_app_limited in tcp_bpf_push — Matthieu Baerts
-  https://lore.kernel.org/mptcp/3b241101-f090-4228-aa8c-b25f61c4aa40@kernel.org/
-- [lore] Re: [PATCH net] mptcp: return sk_wait_data() errors from recvmsg() — Matthieu Baerts
-  https://lore.kernel.org/mptcp/c5b348cc-bf4c-4015-ab52-d842485a438d@kernel.org/
-- [lore] Re: [PATCH net] mptcp: return sk_wait_data() errors from recvmsg() — MPTCP CI
-  https://lore.kernel.org/mptcp/eecfc2e1-0719-b588-04b3-ebcfc0a28105@gmail.com/
-- [lore] Re: [PATCH mptcp-next v5 00/16] MPTCP sockmap support — MPTCP CI
-  https://lore.kernel.org/mptcp/b5f9e8d7-b738-1df6-3b5e-1d54cbbc663c@gmail.com/
-- [lore] Re: [PATCH mptcp-next v5 00/16] MPTCP sockmap support — MPTCP CI
-  https://lore.kernel.org/mptcp/7d725fbe-154c-d2ff-0886-bbbecb62d749@gmail.com/
+## 2026-09-14
+- [lore] Re: [PATCH mptcp-next] selftests: mptcp: join: capture on client side for test 020 — MPTCP CI
+  https://lore.kernel.org/mptcp/885ba69f-0068-2328-d348-f030160b6d6d@gmail.com/
+- [lore] Re: [PATCH mptcp-net] selftests: mptcp: join: dump stats with right title — MPTCP CI
+  https://lore.kernel.org/mptcp/7fc3cc6f-a248-1bff-d891-23cc5a507096@gmail.com/
+- [lore] Re: [PATCH mptcp-next] selftests: mptcp: join: capture on client side for test 020 — sashiko-bot
+  https://lore.kernel.org/mptcp/20260914180024.BC8801F000FF@smtp.kernel.org/
+- [lore] [PATCH mptcp-net] selftests: mptcp: join: dump stats with right title — Matthieu Baerts (NGI0)
+  https://lore.kernel.org/mptcp/20260914-mptcp-sft-join-typo-ns-stat-v1-1-30d5a5802b57@kernel.org/
+- [lore] [PATCH mptcp-next] selftests: mptcp: join: capture on client side for test 020 — Matthieu Baerts (NGI0)
+  https://lore.kernel.org/mptcp/20260914-mptcp-sft-join-cap-ns2-v1-1-2f48e4c5f9eb@kernel.org/
+- [lore] Re: [PATCH mptcp-next v5 00/16] MPTCP sockmap support — Geliang Tang
+  https://lore.kernel.org/mptcp/09d5ca0458d9add4c9054c246b73b785a48326c5.camel@kernel.org/
 
 ## 2026-09-12
 - [gh] Issue #634: KCSAN: data-race in `mptcp_cleanup_rbuf` / `mptcp_data_ready`
