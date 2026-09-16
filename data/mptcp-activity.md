@@ -2,9 +2,27 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
+## 2026-09-16
+- [lore] Re: [PATCH mptcp-next v5 1/2] mptcp: sched: add subflow avoid flag and enforce it in default sched — Kalpan Jani
+  https://lore.kernel.org/mptcp/1a0a8fc07f1.ce633a5689409.1282570285551793718@mpiricsoftware.com/
+- [lore] Re: [PATCH net-next v6] mptcp: normalize seq numbers reported in mptcp_info — Kalpan Jani
+  https://lore.kernel.org/mptcp/1a0a88b45c0.2487fce6673796.3552940371542702370@mpiricsoftware.com/
+- [lore] Re: [PATCH RFC v3 00/13] sysctl: add module aliases — Mauricio Faria de Oliveira
+  https://lore.kernel.org/mptcp/cdc75421500371a8839fe5347af5c103@igalia.com/
+
 ## 2026-09-15
-- [lore] Re: [PATCH mptcp-net] selftests: mptcp: join: dump stats with right title — Geliang Tang
-  https://lore.kernel.org/mptcp/adfae8144b8e274753ea15d8798b8c29d4e139d9.camel@kernel.org/
+- [lore] Re: [PATCH 0/2] Drop redundant tcp_rate_check_app_limited calls — Jakub Kicinski
+  https://lore.kernel.org/mptcp/20260915160125.29be79e7@kernel.org/
+- [lore] [PATCH net 2/2] mptcp: close race between scheduler and state change — Matthieu Baerts (NGI0)
+  https://lore.kernel.org/mptcp/20260915-net-mptcp-misc-fixes-7-3-rc4-v1-2-a257797dd5d0@kernel.org/
+- [lore] [PATCH net 1/2] mptcp: avoid unneeded actions on subflow reset — Matthieu Baerts (NGI0)
+  https://lore.kernel.org/mptcp/20260915-net-mptcp-misc-fixes-7-3-rc4-v1-1-a257797dd5d0@kernel.org/
+- [lore] [PATCH net 0/2] mptcp: misc fixes for v7.3-rc4 — Matthieu Baerts (NGI0)
+  https://lore.kernel.org/mptcp/20260915-net-mptcp-misc-fixes-7-3-rc4-v1-0-a257797dd5d0@kernel.org/
+- [lore] Re: [PATCH v2 0/2] Drop redundant tcp_rate_check_app_limited calls — MPTCP CI
+  https://lore.kernel.org/mptcp/c0925743-34ae-a676-ed72-bb360d01f522@gmail.com/
+- [lore] Re: [PATCH mptcp-next] mptcp: fix add_addr_accepted accounting on subflow close — Akshit Patadiya
+  https://lore.kernel.org/mptcp/20260915121622.1151132-1-akshit@mpiricsoftware.com/
 
 ## 2026-09-14
 - [lore] Re: [PATCH mptcp-next] selftests: mptcp: join: capture on client side for test 020 — MPTCP CI
