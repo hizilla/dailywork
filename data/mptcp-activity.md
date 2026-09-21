@@ -3,28 +3,18 @@
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
 ## 2026-09-20
-- [lore] Re: [PATCH v3] mptcp: do not use Fast Open on MP_JOIN subflows — sashiko-bot
-  https://lore.kernel.org/mptcp/20260920063013.89A8E1F000FF@smtp.kernel.org/
-- [lore] Re: [PATCH v3] mptcp: do not use Fast Open on MP_JOIN subflows — sashiko-bot
-  https://lore.kernel.org/mptcp/20260920062907.21C3B1F000FF@smtp.kernel.org/
-- [lore] [PATCH v3] mptcp: do not use Fast Open on MP_JOIN subflows — Yilin Zhang
-  https://lore.kernel.org/mptcp/20260920061904.3575780-1-yilinzhang@moonshot.ai/
-- [lore] [PATCH v3] mptcp: do not use Fast Open on MP_JOIN subflows — Yilin Zhang
-  https://lore.kernel.org/mptcp/20260920061755.3575063-1-yilinzhang@moonshot.ai/
-
-## 2026-09-19
-- [lore] Re: [PATCH 5.10.y 3/3] mptcp: close race between scheduler and state change — sashiko-bot
-  https://lore.kernel.org/mptcp/20260919205350.956551F000FF@smtp.kernel.org/
-- [lore] Re: [PATCH 5.15.y 1/2] mptcp: avoid unneeded actions on subflow reset — sashiko-bot
-  https://lore.kernel.org/mptcp/20260919204248.313FF1F000FF@smtp.kernel.org/
-- [lore] [PATCH 5.10.y 3/3] mptcp: close race between scheduler and state change — Matthieu Baerts (NGI0)
-  https://lore.kernel.org/mptcp/20260919204002.2106015-8-matttbe@kernel.org/
-- [lore] [PATCH 5.10.y 2/3] mptcp: avoid unneeded actions on subflow reset — Matthieu Baerts (NGI0)
-  https://lore.kernel.org/mptcp/20260919204002.2106015-7-matttbe@kernel.org/
-- [lore] [PATCH 5.10.y 1/3] mptcp: hold mptcp socket before calling tcp_done — Matthieu Baerts (NGI0)
-  https://lore.kernel.org/mptcp/20260919204002.2106015-6-matttbe@kernel.org/
-- [lore] [PATCH 5.10.y 0/3] mptcp: fix recent failed backports (20260919) — Matthieu Baerts (NGI0)
-  https://lore.kernel.org/mptcp/20260919204002.2106015-5-matttbe@kernel.org/
+- [lore] Re: Patch "mptcp: annotate data-races around subflow->fully_established" has been added to the 6.12-stable tree — Matthieu Baerts
+  https://lore.kernel.org/mptcp/569ae222-2073-4565-a445-bcfcd7059a06@kernel.org/
+- [lore] Re: [PATCH 6.12.y v2 0/3] mptcp: fix recent failed backports (20260919) — Greg KH
+  https://lore.kernel.org/mptcp/2026092050-wisplike-trustful-6c97@gregkh/
+- [lore] Re: Patch "mptcp: annotate data-races around subflow->fully_established" has been added to the 6.12-stable tree — Greg KH
+  https://lore.kernel.org/mptcp/2026092026-throwback-iron-bdce@gregkh/
+- [lore] [PATCH 6.12.y v2 3/3] mptcp: fix bad accounting in __mptcp_subflow_push_pending() — Matthieu Baerts (NGI0)
+  https://lore.kernel.org/mptcp/20260920094135.2431797-8-matttbe@kernel.org/
+- [lore] [PATCH 6.12.y v2 2/3] mptcp: close race between scheduler and state change — Matthieu Baerts (NGI0)
+  https://lore.kernel.org/mptcp/20260920094135.2431797-7-matttbe@kernel.org/
+- [lore] [PATCH 6.12.y v2 1/3] mptcp: avoid unneeded actions on subflow reset — Matthieu Baerts (NGI0)
+  https://lore.kernel.org/mptcp/20260920094135.2431797-6-matttbe@kernel.org/
 
 ## 2026-09-12
 - [gh] Issue #634: KCSAN: data-race in `mptcp_cleanup_rbuf` / `mptcp_data_ready`
