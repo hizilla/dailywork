@@ -2,13 +2,23 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
+## 2026-09-24
+- [lore] Re: [PATCH mptcp-next v7 6/6] Squash to previous one — gang.yan
+  https://lore.kernel.org/mptcp/da961f27c729d9232a59e509e8e3c2f50bc1db00@linux.dev/
+
 ## 2026-09-23
-- [lore] Re: [PATCH 3/6] landlock: Add MPTCP bind and connect access rights — Geliang Tang
-  https://lore.kernel.org/mptcp/a5a2f4353d0c2a1b1f86ebf466838f5ef3de27ce.camel@kernel.org/
-- [lore] [RFC mptcp-next] mptcp: TX timestamping at the msk level — David CARLIER
-  https://lore.kernel.org/mptcp/CA+XhMqwA+x8kd4VjV_N7S9S7mCtAhr7FBc0ByKDQOTyU-PQr=g@mail.gmail.com/
-- [lore] Re: [PATCH bpf-next v4] bpf: drop duplicate check_app_limited in tcp_bpf_push — patchwork-bot+netdevbpf
-  https://lore.kernel.org/mptcp/179012940865.177114.1142007941387252817.git-patchwork-notify@kernel.org/
+- [lore] Re: [PATCH 3/6] landlock: Add MPTCP bind and connect access rights — Günther Noack
+  https://lore.kernel.org/mptcp/arPhu-qFxCgmfk87@google.com/
+- [lore] Re: [PATCH mptcp-net v2] mptcp: fix subflow bitfield misuse — MPTCP CI
+  https://lore.kernel.org/mptcp/393d572f-b94d-3f2a-13b1-0b2aecd151cd@gmail.com/
+- [lore] Re: [PATCH mptcp-next v7 0/6] mptcp: avoid data-races around the sysctls — MPTCP CI
+  https://lore.kernel.org/mptcp/688afdec-17e8-314e-e0d3-21b054e6141c@gmail.com/
+- [lore] [PATCH mptcp-net v2] mptcp: fix subflow bitfield misuse — Paolo Abeni
+  https://lore.kernel.org/mptcp/0c859a0153b64833949f03be2391e4d2a60f8d6d.1790160379.git.pabeni@redhat.com/
+- [lore] Re: [PATCH mptcp-net] mptcp: fix subflow bitfield misuse — Paolo Abeni
+  https://lore.kernel.org/mptcp/4615397d-b384-4791-9a46-f9cf2b51d93d@redhat.com/
+- [lore] Re: [PATCH mptcp-next v7 6/6] Squash to previous one — sashiko-bot
+  https://lore.kernel.org/mptcp/20260923101140.E62E41F000FF@smtp.kernel.org/
 
 ## 2026-09-22
 - [lore] Re: [PATCH net-next 1/4] mptcp: support MSG_ERRQUEUE on the parent socket — David CARLIER
@@ -23,20 +33,6 @@
   https://lore.kernel.org/mptcp/cc4f8eb66555e38a28d629136531a9ec0187263f7080ded5d01304551f686f45@mail.kernel.org/
 - [lore] Re: [PATCH bpf-next v3] bpf: drop duplicate check_app_limited in tcp_bpf_push — Geliang Tang
   https://lore.kernel.org/mptcp/8205e3627e87cca7e59b22d45d60a8a4dfb25263.camel@kernel.org/
-
-## 2026-09-21
-- [lore] Re: [PATCH net-next v3] tls: drop duplicate check_app_limited in tls_push_sg — patchwork-bot+netdevbpf
-  https://lore.kernel.org/mptcp/179003341289.3287147.11471733627452812189.git-patchwork-notify@kernel.org/
-- [lore] Re: [PATCH net-next 4/4] selftests: mptcp: cover IP_RECVERR sockopt propagation — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179001595456.2160803.1891677059727765271@kernel.org/
-- [lore] Re: [PATCH net-next 3/4] mptcp: propagate RECVERR sockopts to subflows — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179001595305.2160803.9169166654380498423@kernel.org/
-- [lore] Re: [PATCH net-next 1/4] mptcp: support MSG_ERRQUEUE on the parent socket — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179001595171.2160803.3670624686905872378@kernel.org/
-- [lore] Re: [PATCH mptcp-net] mptcp: fix subflow bitfield misuse — MPTCP CI
-  https://lore.kernel.org/mptcp/adbe1ee9-e975-221d-1cc9-5a3f32c46f05@gmail.com/
-- [lore] Re: [PATCH mptcp-net] mptcp: fix subflow bitfield misuse — sashiko-bot
-  https://lore.kernel.org/mptcp/20260921170454.640601F000FF@smtp.kernel.org/
 
 ## 2026-09-12
 - [gh] Issue #634: KCSAN: data-race in `mptcp_cleanup_rbuf` / `mptcp_data_ready`
