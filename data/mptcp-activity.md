@@ -2,6 +2,10 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
+## 2026-09-25
+- [lore] Re: [PATCH mptcp-next] mptcp: force a push after arming infinite map on MP_FAIL — Kalpan Jani
+  https://lore.kernel.org/mptcp/20260925103821.420389-1-kalpan.jani@mpiricsoftware.com/
+
 ## 2026-09-24
 - [lore] Re: [PATCH RFC -next 0/5] net: charge socket memory budget to memcg upfront — Eric Dumazet
   https://lore.kernel.org/mptcp/CANn89iLA55e6evpx__7AUQF45uYAbUHxRtz4rVT=vsKpqBRWkA@mail.gmail.com/
@@ -29,8 +33,4 @@
   https://lore.kernel.org/mptcp/4615397d-b384-4791-9a46-f9cf2b51d93d@redhat.com/
 - [lore] Re: [PATCH mptcp-next v7 6/6] Squash to previous one — sashiko-bot
   https://lore.kernel.org/mptcp/20260923101140.E62E41F000FF@smtp.kernel.org/
-
-## 2026-09-12
-- [gh] Issue #634: KCSAN: data-race in `mptcp_cleanup_rbuf` / `mptcp_data_ready`
-  https://github.com/multipath-tcp/mptcp_net-next/issues/634
 
