@@ -2,6 +2,10 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
+## 2026-09-27
+- [gh] Issue #635: Real world MPTCP test 4xLTE + 2x Starlink +fiber and as result speed drop from 600Mbit/sec to 0 after 2-5 seconds.
+  https://github.com/multipath-tcp/mptcp_net-next/issues/635
+
 ## 2026-09-26
 - [lore] [PATCH net-next 5/5] selftests: mptcp: convert iptables to nftables for mptcp_join.sh — Matthieu Baerts (NGI0)
   https://lore.kernel.org/mptcp/20260926-net-next-mptcp-misc-feat-7-4-v1-5-67af4ab37406@kernel.org/
