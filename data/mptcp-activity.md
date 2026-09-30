@@ -2,53 +2,33 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
+## 2026-09-30
+- [lore] Re: [RFC mptcp-next] mptcp: TX timestamping at the msk level — David CARLIER
+  https://lore.kernel.org/mptcp/CA+XhMqxbrk+Z39t+L9J6t+vzdLyHx=ax+0FzR4Bz7muh6QbKXQ@mail.gmail.com/
+- [lore] Re: [RFC mptcp-next] mptcp: TX timestamping at the msk level — Geliang Tang
+  https://lore.kernel.org/mptcp/90d9bf08ccc7c52cf7791654737509fffb149dfe.camel@kernel.org/
+- [lore] Re: [PATCH 3/6] landlock: Add MPTCP bind and connect access rights — Geliang Tang
+  https://lore.kernel.org/mptcp/07eee1c8cebf02f346b46ba55164f6dfc5f36e91.camel@kernel.org/
+- [lore] Re: [PATCH mptcp-next v14 00/11] Reduce the differences between TCP and MPTCP for TLS usage — MPTCP CI
+  https://lore.kernel.org/mptcp/b3fabc8c-796e-ff55-0c3c-7e2ba5670bf2@gmail.com/
+- [lore] Re: [PATCH net-next 5/5] selftests: mptcp: convert iptables to nftables for mptcp_join.sh — Hangbin Liu
+  https://lore.kernel.org/mptcp/arx4cn3ZPDtuUNBM@fedora/
+- [lore] [PATCH mptcp-next v14 11/11] mptcp: update mptcp_check_readable — Geliang Tang
+  https://lore.kernel.org/mptcp/0b914bfd521e1e6eda15f8ba7124cfd5342bb596.1790734083.git.tanggeliang@kylinos.cn/
+
 ## 2026-09-29
+- [lore] Re: [PATCH 01/16 net-next v2] ipv4: introduce CONFIG_IPV4 to decouple the IPv4 stack — sashiko-bot
+  https://lore.kernel.org/mptcp/20260929193243.90FF01F000FF@smtp.kernel.org/
+- [lore] Re: [PATCH v3 net-next 3/9] sunrpc: use sk_set_nospace() and sk_clear_nospace() — Chuck Lever
+  https://lore.kernel.org/mptcp/9a68f8a0-474c-44f4-97fa-bbf05b6de529@app.fastmail.com/
+- [lore] Re: [PATCH v3 net-next 6/9] drbd: use sk_set_nospace() — Christoph Böhmwalder
+  https://lore.kernel.org/mptcp/3c683f06-4214-4e0c-b568-a2458fba0cd3@linbit.com/
 - [lore] Re: [PATCH v3 net-next 0/9] tcp: avoid struct socket cache line miss in tcp_check_space() — Eric Dumazet
   https://lore.kernel.org/mptcp/CANn89iLUKHZVrUOEtqDwuAghCRAkddigPwSWj4uS=fKyWdk86g@mail.gmail.com/
 - [lore] Re: [PATCH v3 net-next 0/9] tcp: avoid struct socket cache line miss in tcp_check_space() — netdev-bot+sinfo
   https://lore.kernel.org/mptcp/179066667444.31693.3326934466907750947@kernel.org/
-- [lore] [PATCH v3 net-next 9/9] tcp: add tp->tcp_nospace — Eric Dumazet
-  https://lore.kernel.org/mptcp/20260929071743.23624-10-edumazet@kernel.org/
-- [lore] [PATCH v3 net-next 8/9] libceph: use sk_clear_nospace() — Eric Dumazet
-  https://lore.kernel.org/mptcp/20260929071743.23624-9-edumazet@kernel.org/
-- [lore] [PATCH v3 net-next 7/9] nvme-tcp: use sk_clear_nospace() — Eric Dumazet
-  https://lore.kernel.org/mptcp/20260929071743.23624-8-edumazet@kernel.org/
-- [lore] [PATCH v3 net-next 6/9] drbd: use sk_set_nospace() — Eric Dumazet
-  https://lore.kernel.org/mptcp/20260929071743.23624-7-edumazet@kernel.org/
-
-## 2026-09-28
-- [lore] Re: [PATCH net-next 5/5] selftests: mptcp: convert iptables to nftables for mptcp_join.sh — Matthieu Baerts
-  https://lore.kernel.org/mptcp/4278a970-2957-4387-8f20-604ae4ae97e9@kernel.org/
-- [lore] [PATCH 01/16 net-next v2] ipv4: introduce CONFIG_IPV4 to decouple the IPv4 stack — Fernando Fernandez Mancera
-  https://lore.kernel.org/mptcp/20260928193046.6698-2-fmancera@suse.de/
-- [lore] Re: [PATCH net-next 5/5] selftests: mptcp: convert iptables to nftables for mptcp_join.sh — Matthieu Baerts
-  https://lore.kernel.org/mptcp/deb5e3b3-d1d7-4d1e-8bb6-95050769d656@kernel.org/
-- [lore] Re: [PATCH net-next 4/5] selftests: mptcp: convert iptables to nftables for mptcp_sockopt.sh — Matthieu Baerts
-  https://lore.kernel.org/mptcp/a6b1c774-ab85-4c58-93bf-aa0e24385139@kernel.org/
-- [lore] Re: [PATCH net-next 5/5] selftests: mptcp: convert iptables to nftables for mptcp_join.sh — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179058242453.3145.1450534124183352369@kernel.org/
-- [lore] Re: [PATCH net-next 4/5] selftests: mptcp: convert iptables to nftables for mptcp_sockopt.sh — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179058242329.3145.13094983040753478975@kernel.org/
 
 ## 2026-09-27
 - [gh] Issue #635: Real world MPTCP test 4xLTE + 2x Starlink +fiber and as result speed drop from 600Mbit/sec to 0 after 2-5 seconds.
   https://github.com/multipath-tcp/mptcp_net-next/issues/635
-
-## 2026-09-26
-- [lore] [PATCH net-next 5/5] selftests: mptcp: convert iptables to nftables for mptcp_join.sh — Matthieu Baerts (NGI0)
-  https://lore.kernel.org/mptcp/20260926-net-next-mptcp-misc-feat-7-4-v1-5-67af4ab37406@kernel.org/
-- [lore] [PATCH net-next 4/5] selftests: mptcp: convert iptables to nftables for mptcp_sockopt.sh — Matthieu Baerts (NGI0)
-  https://lore.kernel.org/mptcp/20260926-net-next-mptcp-misc-feat-7-4-v1-4-67af4ab37406@kernel.org/
-- [lore] [PATCH net-next 3/5] mptcp: shrink struct mptcp_options_received — Matthieu Baerts (NGI0)
-  https://lore.kernel.org/mptcp/20260926-net-next-mptcp-misc-feat-7-4-v1-3-67af4ab37406@kernel.org/
-- [lore] [PATCH net-next 2/5] mptcp: split FASTCLOSE key from rcvr_key — Matthieu Baerts (NGI0)
-  https://lore.kernel.org/mptcp/20260926-net-next-mptcp-misc-feat-7-4-v1-2-67af4ab37406@kernel.org/
-- [lore] [PATCH net-next 1/5] mptcp: remove thmac from subflow ctx — Matthieu Baerts (NGI0)
-  https://lore.kernel.org/mptcp/20260926-net-next-mptcp-misc-feat-7-4-v1-1-67af4ab37406@kernel.org/
-- [lore] [PATCH net-next 0/5] mptcp: misc improvements for v7.4 — Matthieu Baerts (NGI0)
-  https://lore.kernel.org/mptcp/20260926-net-next-mptcp-misc-feat-7-4-v1-0-67af4ab37406@kernel.org/
-
-## 2026-09-25
-- [lore] Re: [PATCH mptcp-next] mptcp: force a push after arming infinite map on MP_FAIL — Kalpan Jani
-  https://lore.kernel.org/mptcp/20260925103821.420389-1-kalpan.jani@mpiricsoftware.com/
 
