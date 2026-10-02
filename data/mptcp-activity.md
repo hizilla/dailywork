@@ -2,11 +2,29 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
+## 2026-10-02
+- [lore] Re: [PATCH net-next v7] mptcp: normalize seq numbers reported in mptcp_info — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179090451143.3135.10344109428965286911@kernel.org/
+- [lore] Re: [PATCH v3 net-next 9/9] tcp: add tp->tcp_nospace — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179090396455.434549.14548496564842351902@kernel.org/
+- [lore] Re: [PATCH v3 net-next 2/9] net: add sk_set_nospace() and sk_clear_nospace() — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179090396163.434549.17078456875328527207@kernel.org/
+- [lore] Re: [PATCH v3 net-next 1/9] dlm: fix send buffer backpressure handling — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179090395863.434549.3668493667259120759@kernel.org/
+
 ## 2026-10-01
-- [lore] [mptcp:export 4/36] .github/FUNDING.yml: warning: ignored by one of the .gitignore files — kernel test robot
-  https://lore.kernel.org/mptcp/202610011149.ei434yaS-lkp@intel.com/
-- [lore] about network protocols clients — Christine Bennett
-  https://lore.kernel.org/mptcp/01a0f4c9-6046-7b14-91fa-0f93f02c6a22@persistiqalpha1.pro/
+- [lore] Re: [PATCH mptcp-next v14 10/11] selftests: mptcp: sockopt: check app_limited — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179088913377.3135.2634053413734817495@kernel.org/
+- [lore] Re: [PATCH mptcp-next v14 09/11] mptcp: track app-limited state in mptcp_sendmsg — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179088913294.3135.15874495190303859917@kernel.org/
+- [lore] Re: [PATCH mptcp-next v14 07/11] mptcp: implement peek_len for proto_ops — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179088913203.3135.11419962416862692363@kernel.org/
+- [lore] Re: [PATCH mptcp-next v14 06/11] mptcp: align FIN handling with TCP via SOCK_DONE — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179088913113.3135.12561434524857640069@kernel.org/
+- [lore] Re: [PATCH mptcp-next v14 05/11] mptcp: defer read_sock cleanup to mptcp_worker — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179088913030.3135.17267555452910281818@kernel.org/
+- [lore] Re: [PATCH mptcp-next v14 04/11] mptcp: sync mptcp skb cb layout with tcp one — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179088912938.3135.4160706130140135060@kernel.org/
 
 ## 2026-09-30
 - [lore] [PATCH 01/16 net-next v3] ipv4: introduce CONFIG_IPV4 to decouple the IPv4 stack — Fernando Fernandez Mancera
