@@ -3,6 +3,10 @@
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
 ## 2026-10-02
+- [lore] Re: [PATCH v3 net-next 1/9] dlm: fix send buffer backpressure handling — Alexander Aring
+  https://lore.kernel.org/mptcp/CAK-6q+ga-MNEXgENToB2hLB9jzpsGMrz-1sOo7WQP5M-scnAxg@mail.gmail.com/
+- [lore] Re: [PATCH v3 net-next 1/9] dlm: fix send buffer backpressure handling — Eric Dumazet
+  https://lore.kernel.org/mptcp/CAL4WiipAe11BJA0rs33_0=bzYXMr0qQvQMPc+6-awyFQdQ1yCA@mail.gmail.com/
 - [lore] Re: [PATCH net-next v7] mptcp: normalize seq numbers reported in mptcp_info — netdev-bot+sashiko
   https://lore.kernel.org/mptcp/179090451143.3135.10344109428965286911@kernel.org/
 - [lore] Re: [PATCH v3 net-next 9/9] tcp: add tp->tcp_nospace — netdev-bot+sashiko
