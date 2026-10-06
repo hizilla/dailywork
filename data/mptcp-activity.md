@@ -2,6 +2,20 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
+## 2026-10-05
+- [lore] Re: [PATCH v3 net-next 0/9] tcp: avoid struct socket cache line miss in tcp_check_space() — patchwork-bot+netdevbpf
+  https://lore.kernel.org/mptcp/179124301177.1937173.6611394010312791388.git-patchwork-notify@kernel.org/
+- [lore] Re: [PATCH 6.18.y] mptcp: fix msk->timer_ival reset — MPTCP CI
+  https://lore.kernel.org/mptcp/96956b4e-4a7d-bb1c-f83e-e65397972561@gmail.com/
+- [lore] Re: [PATCH 7.2.y] mptcp: fix msk->timer_ival reset — MPTCP CI
+  https://lore.kernel.org/mptcp/b6729398-55c4-149c-81f4-9b9bc58d6192@gmail.com/
+- [lore] [PATCH 6.12.y] mptcp: prevent race between disconnect() and rtx — Matthieu Baerts (NGI0)
+  https://lore.kernel.org/mptcp/20261005175226.3607979-2-matttbe@kernel.org/
+- [lore] [PATCH 7.2.y] mptcp: fix msk->timer_ival reset — Matthieu Baerts (NGI0)
+  https://lore.kernel.org/mptcp/20261005174222.3524381-2-matttbe@kernel.org/
+- [lore] [PATCH 6.18.y] mptcp: fix msk->timer_ival reset — Matthieu Baerts (NGI0)
+  https://lore.kernel.org/mptcp/20261005174116.3521187-2-matttbe@kernel.org/
+
 ## 2026-10-02
 - [lore] Re: [PATCH v3 net-next 1/9] dlm: fix send buffer backpressure handling — Alexander Aring
   https://lore.kernel.org/mptcp/CAK-6q+ga-MNEXgENToB2hLB9jzpsGMrz-1sOo7WQP5M-scnAxg@mail.gmail.com/
@@ -35,14 +49,6 @@
   https://lore.kernel.org/mptcp/20260930135334.4739-2-fmancera@suse.de/
 - [lore] Re: [PATCH net-next v7] mptcp: normalize seq numbers reported in mptcp_info — MPTCP CI
   https://lore.kernel.org/mptcp/b53e5c65-aee4-cc46-9a84-f2d72177fa04@gmail.com/
-- [lore] Re: [PATCH net-next v7] mptcp: normalize seq numbers reported in mptcp_info — sashiko-bot
-  https://lore.kernel.org/mptcp/20260930105246.80CF31F00893@smtp.kernel.org/
-- [lore] [PATCH net-next v7] mptcp: normalize seq numbers reported in mptcp_info — Kalpan Jani
-  https://lore.kernel.org/mptcp/20260930102804.2796208-1-kalpan.jani@mpiricsoftware.com/
-- [lore] Re: [RFC mptcp-next] mptcp: TX timestamping at the msk level — David CARLIER
-  https://lore.kernel.org/mptcp/CA+XhMqxbrk+Z39t+L9J6t+vzdLyHx=ax+0FzR4Bz7muh6QbKXQ@mail.gmail.com/
-- [lore] Re: [RFC mptcp-next] mptcp: TX timestamping at the msk level — Geliang Tang
-  https://lore.kernel.org/mptcp/90d9bf08ccc7c52cf7791654737509fffb149dfe.camel@kernel.org/
 
 ## 2026-09-27
 - [gh] Issue #635: Real world MPTCP test 4xLTE + 2x Starlink +fiber and as result speed drop from 600Mbit/sec to 0 after 2-5 seconds.
