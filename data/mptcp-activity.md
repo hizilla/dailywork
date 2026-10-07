@@ -2,6 +2,20 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
+## 2026-10-06
+- [lore] Re: [PATCH 6.12.y] mptcp: prevent race between disconnect() and rtx — Sasha Levin
+  https://lore.kernel.org/mptcp/2026-10-06-1-daily-reply-0013-mptcp-disconnect-rtx-6.12@kernel.org/
+- [lore] Re: [PATCH 7.2.y] mptcp: fix msk->timer_ival reset — Sasha Levin
+  https://lore.kernel.org/mptcp/2026-10-06-1-daily-reply-0009-mptcp-timer-ival-7.2@kernel.org/
+- [lore] Re: [PATCH 6.18.y] mptcp: fix msk->timer_ival reset — Sasha Levin
+  https://lore.kernel.org/mptcp/2026-10-06-1-daily-reply-0008-mptcp-timer-ival-6.18@kernel.org/
+- [lore] Re: [PATCH mptcp-net v2] mptcp: fix subflow bitfield misuse — Matthieu Baerts
+  https://lore.kernel.org/mptcp/099068f7-36a0-4937-b92d-27ac8b781043@kernel.org/
+- [lore] Re: [PATCH net-next v7] mptcp: normalize seq numbers reported in mptcp_info — Matthieu Baerts
+  https://lore.kernel.org/mptcp/7ea079f5-f610-4613-a4a4-bcb53cbd2b1c@kernel.org/
+- [lore] Re: [PATCH net v6 0/2] mptcp: fix request migration ownership — Matthieu Baerts
+  https://lore.kernel.org/mptcp/f66560e3-b821-4e70-980b-d3a6252a022d@kernel.org/
+
 ## 2026-10-05
 - [lore] Re: [PATCH v3 net-next 0/9] tcp: avoid struct socket cache line miss in tcp_check_space() — patchwork-bot+netdevbpf
   https://lore.kernel.org/mptcp/179124301177.1937173.6611394010312791388.git-patchwork-notify@kernel.org/
@@ -33,22 +47,6 @@
 ## 2026-10-01
 - [lore] Re: [PATCH mptcp-next v14 10/11] selftests: mptcp: sockopt: check app_limited — netdev-bot+sashiko
   https://lore.kernel.org/mptcp/179088913377.3135.2634053413734817495@kernel.org/
-- [lore] Re: [PATCH mptcp-next v14 09/11] mptcp: track app-limited state in mptcp_sendmsg — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179088913294.3135.15874495190303859917@kernel.org/
-- [lore] Re: [PATCH mptcp-next v14 07/11] mptcp: implement peek_len for proto_ops — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179088913203.3135.11419962416862692363@kernel.org/
-- [lore] Re: [PATCH mptcp-next v14 06/11] mptcp: align FIN handling with TCP via SOCK_DONE — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179088913113.3135.12561434524857640069@kernel.org/
-- [lore] Re: [PATCH mptcp-next v14 05/11] mptcp: defer read_sock cleanup to mptcp_worker — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179088913030.3135.17267555452910281818@kernel.org/
-- [lore] Re: [PATCH mptcp-next v14 04/11] mptcp: sync mptcp skb cb layout with tcp one — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179088912938.3135.4160706130140135060@kernel.org/
-
-## 2026-09-30
-- [lore] [PATCH 01/16 net-next v3] ipv4: introduce CONFIG_IPV4 to decouple the IPv4 stack — Fernando Fernandez Mancera
-  https://lore.kernel.org/mptcp/20260930135334.4739-2-fmancera@suse.de/
-- [lore] Re: [PATCH net-next v7] mptcp: normalize seq numbers reported in mptcp_info — MPTCP CI
-  https://lore.kernel.org/mptcp/b53e5c65-aee4-cc46-9a84-f2d72177fa04@gmail.com/
 
 ## 2026-09-27
 - [gh] Issue #635: Real world MPTCP test 4xLTE + 2x Starlink +fiber and as result speed drop from 600Mbit/sec to 0 after 2-5 seconds.
