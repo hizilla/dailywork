@@ -2,6 +2,10 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
+## 2026-10-11
+- [lore] Re: about network protocols clients — Christine Bennett
+  https://lore.kernel.org/mptcp/01a12850-490a-78bd-bbac-a07716cf46f8@persistiqalpha1.pro/
+
 ## 2026-10-10
 - [lore] Re: [PATCH v4] mptcp: push queued data on passive TFO subflows becoming established — netdev-bot+sashiko
   https://lore.kernel.org/mptcp/179161804927.3135.965833184585507271@kernel.org/
@@ -33,8 +37,4 @@
   https://lore.kernel.org/mptcp/93e09debbb09d20579f3efc127e404dcd775ecee@linux.dev/
 - [lore] Re: [PATCH mptcp-next] selftests: mptcp: use offset to match RM_ADDR message — Matthieu Baerts
   https://lore.kernel.org/mptcp/e9902aae-a602-4731-84b2-0562e82a345c@kernel.org/
-
-## 2026-09-27
-- [gh] Issue #635: Real world MPTCP test 4xLTE + 2x Starlink +fiber and as result speed drop from 600Mbit/sec to 0 after 2-5 seconds.
-  https://github.com/multipath-tcp/mptcp_net-next/issues/635
 
