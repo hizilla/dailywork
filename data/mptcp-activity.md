@@ -2,6 +2,10 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
+## 2026-10-12
+- [lore] [syzbot] [mptcp?] WARNING in __mptcp_move_skbs_from_subflow (3) — syzbot
+  https://lore.kernel.org/mptcp/6acc3f04.a150a118.27e199.003f.GAE@google.com/
+
 ## 2026-10-11
 - [lore] Re: about network protocols clients — Christine Bennett
   https://lore.kernel.org/mptcp/01a12850-490a-78bd-bbac-a07716cf46f8@persistiqalpha1.pro/
