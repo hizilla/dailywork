@@ -2,43 +2,31 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
+## 2026-10-13
+- [lore] Re: [PATCH mptcp-next 0/2] introduce msk_is_mptcp() helper — MPTCP CI
+  https://lore.kernel.org/mptcp/260bea0e-f3f4-4a6d-138c-7d8f2381e38a@gmail.com/
+- [lore] [PATCH mptcp-net v3] mptcp: push queued data on passive TFO subflows becoming established — T S Rameshkumar
+  https://lore.kernel.org/mptcp/20261013080254.83992-1-rameshkumar.t@phytecembedded.in/
+- [lore] [PATCH mptcp-next 2/2] Squash to "bpf: Add mptcp_subflow bpf_iter" — Geliang Tang
+  https://lore.kernel.org/mptcp/c6ccff66d3a0673b7edf6f6374be079877bd63e0.1791873760.git.tanggeliang@kylinos.cn/
+- [lore] [PATCH mptcp-next 1/2] mptcp: add msk_is_mptcp() helper — Geliang Tang
+  https://lore.kernel.org/mptcp/1b21558a40905ae312d2ac987de4db0a04db3c02.1791873760.git.tanggeliang@kylinos.cn/
+- [lore] [PATCH mptcp-next 0/2] introduce msk_is_mptcp() helper — Geliang Tang
+  https://lore.kernel.org/mptcp/cover.1791873760.git.tanggeliang@kylinos.cn/
+- [lore] Re: [RFC PATCH mptcp-next v2 0/3] mptcp: pm: kernel: retry subflows closed after an error — MPTCP CI
+  https://lore.kernel.org/mptcp/0dae1e9f-d17f-646f-19da-e2fa13040bad@gmail.com/
+
 ## 2026-10-12
-- [lore] [syzbot] [mptcp?] WARNING in __mptcp_move_skbs_from_subflow (3) — syzbot
-  https://lore.kernel.org/mptcp/6acc3f04.a150a118.27e199.003f.GAE@google.com/
-
-## 2026-10-11
-- [lore] Re: about network protocols clients — Christine Bennett
-  https://lore.kernel.org/mptcp/01a12850-490a-78bd-bbac-a07716cf46f8@persistiqalpha1.pro/
-
-## 2026-10-10
-- [lore] Re: [PATCH v4] mptcp: push queued data on passive TFO subflows becoming established — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179161804927.3135.965833184585507271@kernel.org/
-
-## 2026-10-09
-- [lore] Re: [PATCH mptcp-net 0/2] mptcp: options: avoid printing uninit data — Matthieu Baerts
-  https://lore.kernel.org/mptcp/98ff7eb0-a0d2-46ff-b689-4708a0cd7fe8@kernel.org/
-- [lore] Re: [PATCH mptcp-next] Squash to "selftests: mptcp: convert iptables to nftables for mptcp_join.sh" — Matthieu Baerts
-  https://lore.kernel.org/mptcp/886bf07f-c6cb-4a04-a71b-f45daef9b8ca@kernel.org/
-- [lore] Re: [PATCH mptcp-next] squash to "selftests: mptcp: convert iptables to nftables for mptcp_sockopt.sh" — Matthieu Baerts
-  https://lore.kernel.org/mptcp/a52bbffa-8d5a-43d8-8b11-54d43e3cd7f5@kernel.org/
-- [lore] Re: [PATCH mptcp-next] Squash to "selftests: mptcp: convert iptables to nftables for mptcp_join.sh" — Matthieu Baerts
-  https://lore.kernel.org/mptcp/ad230806-6046-443b-a039-2bbb700f5620@kernel.org/
-- [lore] Re: [PATCH mptcp-next] Squash to "selftests: mptcp: convert iptables to nftables for mptcp_join.sh" — Matthieu Baerts
-  https://lore.kernel.org/mptcp/115e155e-734f-44d9-95d1-d82b6fcfed08@kernel.org/
-- [lore] Re: [PATCH mptcp-next] Squash to "selftests: mptcp: convert iptables to nftables for mptcp_join.sh" — Hangbin Liu
-  https://lore.kernel.org/mptcp/asizQp6ewh2fF0Q5@fedora/
-
-## 2026-10-08
-- [lore] Re: [PATCH v4] mptcp: push queued data on passive TFO subflows becoming established — Matthieu Baerts
-  https://lore.kernel.org/mptcp/ae2e3936-5467-43ba-a8ce-287202fa50f1@kernel.org/
 - [lore] Re: [PATCH v4] mptcp: push queued data on passive TFO subflows becoming established — Petar Sakic
-  https://lore.kernel.org/mptcp/CAFPPu1hphgMCQWxUUENR=2+VfE++PG7eW-EeBd1cy8qyPHsDqA@mail.gmail.com/
-- [lore] Re: [PATCH mptcp-next] selftests: mptcp: remove unused configs — Matthieu Baerts
-  https://lore.kernel.org/mptcp/1ec4136d-505c-4f93-950c-372242939d85@kernel.org/
-- [lore] Re: [PATCH mptcp-next] selftests: mptcp: verify nft JSON support — Matthieu Baerts
-  https://lore.kernel.org/mptcp/0595dc06-86a3-47d5-b739-9ec4673b8b00@kernel.org/
-- [lore] Re: [PATCH mptcp-next] selftests: mptcp: verify nft JSON support — hangbin.liu
-  https://lore.kernel.org/mptcp/93e09debbb09d20579f3efc127e404dcd775ecee@linux.dev/
-- [lore] Re: [PATCH mptcp-next] selftests: mptcp: use offset to match RM_ADDR message — Matthieu Baerts
-  https://lore.kernel.org/mptcp/e9902aae-a602-4731-84b2-0562e82a345c@kernel.org/
+  https://lore.kernel.org/mptcp/CAFPPu1gEqVx=LuW8Z5qv-6GRDwzkLjbvdQwYOgaacL3zLBXWtQ@mail.gmail.com/
+- [lore] Re: [RFC PATCH mptcp-next 0/3] mptcp: pm: kernel: retry subflows closed after an error — MPTCP CI
+  https://lore.kernel.org/mptcp/0baeb310-54dd-53fe-1f3b-a08c474ec65e@gmail.com/
+- [lore] Re: [RFC PATCH mptcp-next 2/3] mptcp: pm: kernel: retry subflows closed after an error — sashiko-bot
+  https://lore.kernel.org/mptcp/sashiko-outbox-168464@kernel.org/
+- [lore] Re: [RFC PATCH mptcp-next 0/3] mptcp: pm: kernel: retry subflows closed after an error — Matthieu Baerts
+  https://lore.kernel.org/mptcp/b487095f-b583-4388-8274-d8ea5c3851f3@kernel.org/
+- [lore] [RFC PATCH mptcp-next 3/3] selftests: mptcp: join: validate subflow retry after link failure — Anil Kaushik
+  https://lore.kernel.org/mptcp/20261012171740.464517-4-anilkaushikwireless@gmail.com/
+- [lore] [RFC PATCH mptcp-next 2/3] mptcp: pm: kernel: retry subflows closed after an error — Anil Kaushik
+  https://lore.kernel.org/mptcp/20261012171740.464517-3-anilkaushikwireless@gmail.com/
 
