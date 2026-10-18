@@ -2,33 +2,37 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
+## 2026-10-18
+- [lore] Re: [PATCH mptcp-next v5 7/7] selftests: mptcp: join: validate subflow retry after link failure — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179230196601.3133.2242694314991271561@kernel.org/
+- [lore] Re: [PATCH mptcp-next v5 6/7] selftests: mptcp: pm_nl_ctl: support the subflow-retries limit — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179230196529.3133.6142254982525099118@kernel.org/
+- [lore] Re: [PATCH mptcp-next v5 5/7] mptcp: pm: in-kernel: retry subflows closed after an error — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179230196449.3133.4238470005815011879@kernel.org/
+- [lore] Re: [PATCH mptcp-next v5 4/7] mptcp: pm: in-kernel: add the subflow-retries limit — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179230196371.3133.8705467098989676424@kernel.org/
+- [lore] Re: [PATCH mptcp-next v5 3/7] netlink: specs: mptcp: add the subflow-retries attribute — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179230196294.3133.3154846340684241967@kernel.org/
+- [lore] Re: [PATCH mptcp-next v6 4/6] mptcp: pm: in-kernel: retry subflows closed after an error — sashiko-bot
+  https://lore.kernel.org/mptcp/sashiko-outbox-175939@kernel.org/
+
 ## 2026-10-17
-- [lore] Re: [PATCH mptcp-net v2] mptcp: disconnect: reset first subflow's local_id — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179221642289.3135.11740381750915982127@kernel.org/
-- [lore] [PATCH mptcp-net v2] selftests: mptcp: sockopt: pass total bytes to do_getsockopts — Quanye Yang via B4 Relay
-  https://lore.kernel.org/mptcp/20261016-fix-mptcp-issue-638-v2-1-cc32774a8b0c@proton.me/
-- [lore] [PATCH mptcp-net v2] mptcp: annotate lockless access to msk->scaling_ratio — Quanye Yang via B4 Relay
-  https://lore.kernel.org/mptcp/20261016-t-mptcp-scaling-ratio-kcsan-v2-1-241d1f92dcf1@proton.me/
-- [lore] Re: [PATCH mptcp-net] mptcp: annotate lockless access to msk->scaling_ratio — quanyeyang
-  https://lore.kernel.org/mptcp/oH0C4EkMiU9WgofMExmWaBBrOlKnZeNwWeeApZvOKuFgspfaoCwCLzC_Sy0B1S9iQ0P2rguE-5BB57_s8a6PdGBhzdOhdbsuQLRnlH0kPxs=@proton.me/
-- [lore] Re: [PATCH net 0/4] mptcp: misc fixes for v7.3-rc8 — patchwork-bot+netdevbpf
-  https://lore.kernel.org/mptcp/179220121377.1050340.16852423271530294795.git-patchwork-notify@kernel.org/
-- [lore] Re: [PATCH mptcp-net] selftests: mptcp: sockopt: pass total bytes to do_getsockopts — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179219996445.3135.17949387714487378147@kernel.org/
+- [lore] Re: [PATCH mptcp-next v4 3/3] selftests: mptcp: join: validate subflow retry after link failure — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179227123722.3133.10646334827815358929@kernel.org/
+- [lore] Re: [PATCH mptcp-next v4 2/3] mptcp: pm: kernel: retry subflows closed after an error — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179227123648.3133.5320047924383519432@kernel.org/
+- [lore] Re: [PATCH mptcp-next v4 1/3] selftests: mptcp: connect: retry write() on EAGAIN — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179227123571.3133.16573987329985425813@kernel.org/
+- [lore] Re: [PATCH mptcp-next v2 2/2] mptcp: kunit: add sockopt test for subflow socket locking — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179225804350.3133.12494514393089653943@kernel.org/
+- [lore] Re: [PATCH mptcp-next v2 1/2] mptcp: give MPTCP sockets a distinct lockdep class — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179225804264.3133.5374808777837243575@kernel.org/
+- [lore] [PATCH mptcp-net] mptcp: push pending data after a sendmsg copy fault — Quanye Yang via B4 Relay
+  https://lore.kernel.org/mptcp/20261017-fix-mptcp-issue-640-v1-1-50a7bace7d43@proton.me/
 
 ## 2026-10-16
-- [lore] Re: [PATCH mptcp-net] mptcp: disconnect: reset first subflow's local_id — Mat Martineau
-  https://lore.kernel.org/mptcp/308170eb-b0f2-fff0-0d9a-7610e148fa0c@kernel.org/
-- [lore] Re: [PATCH mptcp-next v5 7/7] selftests: mptcp: join: validate subflow retry after link failure — sashiko-bot
-  https://lore.kernel.org/mptcp/sashiko-outbox-174647@kernel.org/
-- [lore] [PATCH mptcp-next v5 7/7] selftests: mptcp: join: validate subflow retry after link failure — Anil Kaushik
-  https://lore.kernel.org/mptcp/20261016160926.1155262-8-anilkaushikwireless@gmail.com/
-- [lore] [PATCH mptcp-next v5 6/7] selftests: mptcp: pm_nl_ctl: support the subflow-retries limit — Anil Kaushik
-  https://lore.kernel.org/mptcp/20261016160926.1155262-7-anilkaushikwireless@gmail.com/
-- [lore] [PATCH mptcp-next v5 5/7] mptcp: pm: in-kernel: retry subflows closed after an error — Anil Kaushik
-  https://lore.kernel.org/mptcp/20261016160926.1155262-6-anilkaushikwireless@gmail.com/
-- [lore] [PATCH mptcp-next v5 4/7] mptcp: pm: in-kernel: add the subflow-retries limit — Anil Kaushik
-  https://lore.kernel.org/mptcp/20261016160926.1155262-5-anilkaushikwireless@gmail.com/
+- [gh] Issue #641: [syzbot] WARNING in `__mptcp_move_skbs_from_subflow` (3)
+  https://github.com/multipath-tcp/mptcp_net-next/issues/641
 
 ## 2026-10-13
 - [gh] Issue #640: mptcp: pending data stranded on copy failure in `mptcp_sendmsg()`
