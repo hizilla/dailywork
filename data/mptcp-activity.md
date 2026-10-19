@@ -2,6 +2,20 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
+## 2026-10-19
+- [lore] mptcp: poll(POLLIN) on a listening MPTCP socket never wakes when a connection is queued — Leonardo Souza Silva
+  https://lore.kernel.org/mptcp/ROAP284MB16279B4CA8731943D0006042BD982@ROAP284MB1627.BRAP284.PROD.OUTLOOK.COM/
+- [lore] Re: [PATCH mptcp-next v3 2/2] mptcp: kunit: add sockopt test — sashiko-bot
+  https://lore.kernel.org/mptcp/sashiko-outbox-176559@kernel.org/
+- [lore] [PATCH mptcp-next v3 2/2] mptcp: kunit: add sockopt test — Geliang Tang
+  https://lore.kernel.org/mptcp/398dbbf2562050831dae08e0a9058df6b91e575e.1792378794.git.tanggeliang@kylinos.cn/
+- [lore] [PATCH mptcp-next v3 1/2] mptcp: give MPTCP sockets a distinct lockdep class — Geliang Tang
+  https://lore.kernel.org/mptcp/9e27a6113a67e5d5f3af6193f8d20c7c8cd45cd9.1792378794.git.tanggeliang@kylinos.cn/
+- [lore] [PATCH mptcp-next v3 0/2] add distinct lockdep class for MPTCP sockets — Geliang Tang
+  https://lore.kernel.org/mptcp/cover.1792378794.git.tanggeliang@kylinos.cn/
+- [lore] Re: [PATCH mptcp-net] selftests: mptcp: sockopt: echo until EOF on partial reads — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179236894433.3133.2023724514413325674@kernel.org/
+
 ## 2026-10-18
 - [lore] Re: [PATCH mptcp-next v5 7/7] selftests: mptcp: join: validate subflow retry after link failure — netdev-bot+sashiko
   https://lore.kernel.org/mptcp/179230196601.3133.2242694314991271561@kernel.org/
