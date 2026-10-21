@@ -2,19 +2,25 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
+## 2026-10-21
+- [lore] Re: [PATCH mptcp-net 2/2] selftests: mptcp: join: re-add the initial subflow endp with fullmesh — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179256282060.3133.15812705751852336988@kernel.org/
+- [lore] Re: [PATCH mptcp-net 1/2] mptcp: pm: in-kernel: fullmesh: skip closed subflows — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179256281931.3133.3826869783117765302@kernel.org/
+
 ## 2026-10-20
+- [lore] Re: [PATCH mptcp-next v3 2/2] mptcp: kunit: add sockopt test — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179251241642.3133.7263923768840837613@kernel.org/
+- [lore] Re: [PATCH net-next 0/4] mptcp: misc improvements for v7.4 — patchwork-bot+netdevbpf
+  https://lore.kernel.org/mptcp/179248740902.3599760.12752617471968534331.git-patchwork-notify@kernel.org/
+- [lore] Re: [PATCH mptcp-next v4 3/3] mptcp: kunit: add sockopt test — sashiko-bot
+  https://lore.kernel.org/mptcp/sashiko-outbox-178653@kernel.org/
+- [lore] Re: [PATCH mptcp-next v4 2/3] mptcp: inherit sk_reuse and fix dev bind override — sashiko-bot
+  https://lore.kernel.org/mptcp/sashiko-outbox-178606@kernel.org/
+- [lore] Re: [PATCH mptcp-next v7 4/6] mptcp: pm: in-kernel: retry subflows closed after an error — sashiko-bot
+  https://lore.kernel.org/mptcp/sashiko-outbox-178583@kernel.org/
 - [lore] [PATCH mptcp-next v4 3/3] mptcp: kunit: add sockopt test — Geliang Tang
   https://lore.kernel.org/mptcp/fdd33ceda25e9c54bf9c38c999034af7d6a6f08e.1792470313.git.tanggeliang@kylinos.cn/
-- [lore] [PATCH mptcp-next v4 2/3] mptcp: inherit sk_reuse and fix dev bind override — Geliang Tang
-  https://lore.kernel.org/mptcp/4adf96455e63a35be3228434cfe2ba79ea99bcb0.1792470313.git.tanggeliang@kylinos.cn/
-- [lore] [PATCH mptcp-next v4 1/3] mptcp: give MPTCP sockets a distinct lockdep class — Geliang Tang
-  https://lore.kernel.org/mptcp/57a28e59a137afcf8a5dd8b220037cd753a61591.1792470313.git.tanggeliang@kylinos.cn/
-- [lore] [PATCH mptcp-next v4 0/3] add distinct lockdep class for MPTCP sockets — Geliang Tang
-  https://lore.kernel.org/mptcp/cover.1792470313.git.tanggeliang@kylinos.cn/
-- [lore] [PATCH mptcp-next v7 6/6] selftests: mptcp: join: validate subflow retry after link failure — Anil Kaushik
-  https://lore.kernel.org/mptcp/20261020031711.1896660-7-anilkaushikwireless@gmail.com/
-- [lore] [PATCH mptcp-next v7 5/6] selftests: mptcp: pm_nl_ctl: support the subflow-retries limit — Anil Kaushik
-  https://lore.kernel.org/mptcp/20261020031711.1896660-6-anilkaushikwireless@gmail.com/
 
 ## 2026-10-19
 - [lore] Re: [PATCH 6.1.y] mptcp: move the OoO check back into __mptcp_try_fallback() — Sasha Levin
