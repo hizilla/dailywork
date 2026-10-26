@@ -2,33 +2,33 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
+## 2026-10-26
+- [lore] [PATCH mptcp-next v10 6/6] selftests: mptcp: join: validate subflow retry after link failure — Anil Kaushik
+  https://lore.kernel.org/mptcp/20261026063657.2955783-7-anilkaushikwireless@gmail.com/
+- [lore] [PATCH mptcp-next v10 5/6] selftests: mptcp: pm_nl_ctl: support the subflow-retries limit — Anil Kaushik
+  https://lore.kernel.org/mptcp/20261026063657.2955783-6-anilkaushikwireless@gmail.com/
+- [lore] [PATCH mptcp-next v10 4/6] mptcp: pm: in-kernel: retry subflows closed after an error — Anil Kaushik
+  https://lore.kernel.org/mptcp/20261026063657.2955783-5-anilkaushikwireless@gmail.com/
+- [lore] [PATCH mptcp-next v10 3/6] mptcp: pm: in-kernel: add the subflow-retries limit — Anil Kaushik
+  https://lore.kernel.org/mptcp/20261026063657.2955783-4-anilkaushikwireless@gmail.com/
+- [lore] [PATCH mptcp-next v10 2/6] netlink: specs: mptcp: add the subflow-retries attribute — Anil Kaushik
+  https://lore.kernel.org/mptcp/20261026063657.2955783-3-anilkaushikwireless@gmail.com/
+- [lore] [PATCH mptcp-next v10 1/6] selftests: mptcp: connect: retry write() on EAGAIN — Anil Kaushik
+  https://lore.kernel.org/mptcp/20261026063657.2955783-2-anilkaushikwireless@gmail.com/
+
 ## 2026-10-25
-- [lore] Re: [PATCH mptcp-next v2] selftests: mptcp: sockopt: echo until EOF on partial reads — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179289965578.3132.14505074087260563831@kernel.org/
-- [lore] Re: [PATCH mptcp-net v7 2/2] selftests: mptcp: join: re-add the initial subflow endp with fullmesh — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179288646445.3132.10444972890542088038@kernel.org/
-
-## 2026-10-24
-- [lore] Re: [PATCH mptcp-next 2/2] selftests: mptcp: add mptcp nbd tests — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179288176882.3132.11870431209419877537@kernel.org/
-- [lore] Re: [PATCH mptcp-next 1/2] nbd: allow MPTCP sockets — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179288176799.3132.8840650312946859071@kernel.org/
-- [lore] Re: [PATCH mptcp-next v15 10/11] selftests: mptcp: sockopt: check app_limited — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179285917388.3132.154779516364059270@kernel.org/
-- [lore] Re: [PATCH mptcp-next v15 07/11] mptcp: implement peek_len for proto_ops — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179285917226.3132.1744926048999475719@kernel.org/
-- [lore] Re: [PATCH mptcp-next v15 09/11] mptcp: track app-limited state in mptcp_sendmsg — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179285917304.3132.6958669428424790164@kernel.org/
-- [lore] Re: [PATCH mptcp-next v15 06/11] mptcp: align FIN handling with TCP via SOCK_DONE — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179285917135.3132.10302020302118747272@kernel.org/
-
-## 2026-10-23
-- [lore] Re: [PATCH mptcp-net v2] mptcp: pm: kernel: c-flag: mark as used only when it is — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179279910840.3132.11347843926681774689@kernel.org/
-- [lore] Re: [PATCH mptcp-net v6 2/2] selftests: mptcp: join: re-add the initial subflow endp with fullmesh — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179279332774.3132.7813168813559908382@kernel.org/
-- [lore] [mptcp:export 6/35] .github/ISSUE_TEMPLATE/01-bug.yml: warning: ignored by one of the .gitignore files — kernel test robot
-  https://lore.kernel.org/mptcp/202610240521.9hBINO5K-lkp@intel.com/
+- [lore] Re: [PATCH mptcp-next v4 0/4] mptcp: sched: penalise a slow subflow — Abdul Wasey
+  https://lore.kernel.org/mptcp/20261025192320.1831707-1-w453y.me@gmail.com/
+- [lore] Re: [RFC PATCH mptcp-next 0/1] mptcp: opportunistic reinjection on an idle subflow — Abdul Wasey
+  https://lore.kernel.org/mptcp/20261025155848.1745712-1-w453y.me@gmail.com/
+- [lore] Re: [RFC PATCH mptcp-next 0/1] mptcp: opportunistic reinjection on an idle subflow — Matthieu Baerts
+  https://lore.kernel.org/mptcp/5e0ccd66-205f-4055-8ab3-4d300e83fd48@kernel.org/
+- [lore] Re: [PATCH mptcp-next v9 0/6] mptcp: pm: in-kernel: retry subflows closed after an error — MPTCP CI
+  https://lore.kernel.org/mptcp/f75cd54d-2b3b-4984-1372-6c0f98f197a4@gmail.com/
+- [lore] Re: [RFC PATCH mptcp-next 0/1] mptcp: opportunistic reinjection on an idle subflow — MPTCP CI
+  https://lore.kernel.org/mptcp/451da49a-47f6-9060-3402-924dcd6f883e@gmail.com/
+- [lore] Re: [PATCH mptcp-next v9 4/6] mptcp: pm: in-kernel: retry subflows closed after an error — sashiko-bot
+  https://lore.kernel.org/mptcp/sashiko-outbox-184246@kernel.org/
 
 ## 2026-10-21
 - [gh] Issue #645: Packetdrill: upstream MPTCP support
