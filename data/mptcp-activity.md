@@ -2,39 +2,21 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
-## 2026-10-29
-- [lore] [PATCH mptcp-next v2 5/5] selftests: mptcp: sockopt: check app_limited — Geliang Tang
-  https://lore.kernel.org/mptcp/785e65bbb01dbf31ef2832d7a36c159027d6f22c.1793258749.git.tanggeliang@kylinos.cn/
-- [lore] [PATCH mptcp-next v2 4/5] mptcp: track app-limited state in mptcp_sendmsg — Geliang Tang
-  https://lore.kernel.org/mptcp/2ff471fbc06c1c748865e61116b6f386310a4d00.1793258749.git.tanggeliang@kylinos.cn/
-- [lore] [PATCH mptcp-next v2 3/5] mptcp: add sendmsg_locked to proto_ops — Geliang Tang
-  https://lore.kernel.org/mptcp/481909c1d5f71b2cca9ab692f251a6213c7cebf7.1793258749.git.tanggeliang@kylinos.cn/
-- [lore] [PATCH mptcp-next v2 2/5] mptcp: implement peek_len for proto_ops — Geliang Tang
-  https://lore.kernel.org/mptcp/5a0397c9d6a1bdbb1ddeb7b2c900a8c1184dee59.1793258749.git.tanggeliang@kylinos.cn/
-- [lore] [PATCH mptcp-next v2 1/5] mptcp: update mptcp_check_readable — Geliang Tang
-  https://lore.kernel.org/mptcp/de481bab97c658f60f74a37b61a817756d19439e.1793258749.git.tanggeliang@kylinos.cn/
-- [lore] [PATCH mptcp-next v2 0/5] prepare interfaces for kTLS and sockmap support — Geliang Tang
-  https://lore.kernel.org/mptcp/cover.1793258749.git.tanggeliang@kylinos.cn/
-
-## 2026-10-28
-- [lore] Re: [RFC PATCH mptcp-next 0/1] mptcp: opportunistic reinjection on an idle subflow — Abdul Wasey
-  https://lore.kernel.org/mptcp/20261028224059.3657607-1-w453y.me@gmail.com/
-- [lore] Re: [RFC net-next v10] mptcp: normalize seq numbers reported in mptcp_info — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179321646231.3132.10355145486034253199@kernel.org/
-- [lore] Re: [PATCH net] mptcp: protect listener backlog reads in diagnostics — Cen Zhang
-  https://lore.kernel.org/mptcp/CAFRLqsX9cBqrJn94wF-q5NyzoA9tuA72LV00yBYLv5fm7xs=zQ@mail.gmail.com/
-- [lore] Re: [PATCH mptcp-next v5 0/4] mptcp: sched: penalise a slow subflow — MPTCP CI
-  https://lore.kernel.org/mptcp/b5ab3efd-9661-8d7b-6549-49c62e5fee46@gmail.com/
-- [lore] Re: [RFC net-next v10] mptcp: normalize seq numbers reported in mptcp_info — Kalpan Jani
-  https://lore.kernel.org/mptcp/1a1824c684e.5162c190631040.22982735015436316@mpiricsoftware.com/
-- [lore] [PATCH mptcp-next v5 4/4] mptcp: sched: add penalise counters and tracepoint — Shardul Bankar
-  https://lore.kernel.org/mptcp/20261028-mptcp_penalise_send_v2-v5-4-32fb379ce117@mpiricsoftware.com/
+## 2026-10-30
+- [lore] Re: [PATCH mptcp-next v13 0/6] mptcp: pm: in-kernel: retry subflows closed after an error — MPTCP CI
+  https://lore.kernel.org/mptcp/b5be4967-8aca-4f11-1c0a-bf2fec33c3b9@gmail.com/
+- [lore] Re: [PATCH] mptcp: pm: kernel: use RCU to free endpoint listeners — MPTCP CI
+  https://lore.kernel.org/mptcp/d3ddec02-ff99-d3d7-74bc-248b002a091b@gmail.com/
+- [lore] Re: [PATCH net] tcp: restore IPv6 af_ops on disconnect of a v4-mapped socket — MPTCP CI
+  https://lore.kernel.org/mptcp/c79c44da-90d6-ec35-43dc-c40b14469e07@gmail.com/
+- [lore] [PATCH mptcp-next v13 6/6] selftests: mptcp: join: validate subflow retry after link failure — Anil Kaushik
+  https://lore.kernel.org/mptcp/20261030050727.3534304-7-anilkaushikwireless@gmail.com/
+- [lore] [PATCH mptcp-next v13 5/6] selftests: mptcp: pm_nl_ctl: support the subflow-retries limit — Anil Kaushik
+  https://lore.kernel.org/mptcp/20261030050727.3534304-6-anilkaushikwireless@gmail.com/
+- [lore] [PATCH mptcp-next v13 4/6] mptcp: pm: in-kernel: retry subflows closed after an error — Anil Kaushik
+  https://lore.kernel.org/mptcp/20261030050727.3534304-5-anilkaushikwireless@gmail.com/
 
 ## 2026-10-21
 - [gh] Issue #645: Packetdrill: upstream MPTCP support
   https://github.com/multipath-tcp/mptcp_net-next/issues/645
-
-## 2026-10-16
-- [gh] Issue #641: [syzbot] WARNING in `__mptcp_move_skbs_from_subflow` (3)
-  https://github.com/multipath-tcp/mptcp_net-next/issues/641
 
