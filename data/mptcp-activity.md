@@ -2,31 +2,31 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
-## 2026-11-03
-- [lore] Re: [PATCH net] mptcp: fix use-after-free of the subflow context on the delegated list — Matthieu Baerts
-  https://lore.kernel.org/mptcp/abc8a000-caa8-4dd4-9d18-925d1ceda683@kernel.org/
-- [lore] Re: [PATCH net] mptcp: fix use-after-free of the subflow context on the delegated list — Hyunwoo Kim
-  https://lore.kernel.org/mptcp/aumNbD0vtdtLgWN9@v4bel/
-- [lore] Re: [PATCH mptcp-next v5 0/7] prepare interfaces for kTLS and sockmap support — MPTCP CI
-  https://lore.kernel.org/mptcp/3f8dfdd3-8922-7746-6f53-dc2c5b1a9c05@gmail.com/
-- [lore] Re: [PATCH mptcp-next v5 2/7] mptcp: use mptcp_data_avail in mptcp_inq_hint — Geliang Tang
-  https://lore.kernel.org/mptcp/d5798edb938a01d174e01a95596dd5ec608b0680.camel@kernel.org/
-- [lore] Re: [PATCH net] tcp: restore IPv6 af_ops on disconnect of a v4-mapped socket — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179367762613.488856.7087052675164086918@kernel.org/
-- [lore] Re: [PATCH mptcp-next v7 0/6] mptcp: avoid data-races around the sysctls — Geliang Tang
-  https://lore.kernel.org/mptcp/0466fe04a8987c271e81f739d8e6eaf24f3309d6.camel@kernel.org/
-
-## 2026-11-02
+## 2026-11-04
+- [lore] Re: [PATCH bpf v2 00/15] bpf, sockmap: Fixes for verdicts, redirects, corks and recvmsg() — Eric Dumazet
+  https://lore.kernel.org/mptcp/CAL4WiirLdpvLGKDrfM3s1Gx_JsUuA+QVQS_3TY28gttdQnEF6g@mail.gmail.com/
+- [lore] Re: [PATCH bpf v2 08/15] net: Leave sk_stream_wait_memory() once the socket is dead — Eric Dumazet
+  https://lore.kernel.org/mptcp/CAL4Wiiq+QX8quVBjEZK5qipki6Yt7vx4=tt2L4o+FwO9zD-5=g@mail.gmail.com/
+- [lore] Re: [PATCH mptcp-net v2] mptcp: fix use-after-free of the subflow context on the delegated list — MPTCP CI
+  https://lore.kernel.org/mptcp/3b3977d7-a1a4-a906-6254-f101a91c9ae9@gmail.com/
+- [lore] [PATCH mptcp-net v2] mptcp: fix use-after-free of the subflow context on the delegated list — Hyunwoo Kim
+  https://lore.kernel.org/mptcp/auqd0rAI95jDSMvu@v4bel/
 - [lore] Re: [PATCH bpf v2 03/15] bpf, sockmap: Don't let an SK_PASS verdict cover the next message — Alexei Starovoitov
-  https://lore.kernel.org/mptcp/DML3865PENEX.2KBDIHWGWBJ7N@gmail.com/
-- [lore] Re: [PATCH mptcp-next v14 6/6] selftests: mptcp: join: validate subflow retry after link failure — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179365549394.3128.324852138483087912@kernel.org/
-- [lore] Re: [PATCH mptcp-next v14 2/6] netlink: specs: mptcp: add the subflow-retries attribute — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179365549318.3128.12712517228991053551@kernel.org/
-- [lore] Re: [PATCH bpf v2 00/15] bpf, sockmap: Fixes for verdicts, redirects, corks and recvmsg() — John Fastabend
-  https://lore.kernel.org/mptcp/aujuOJCs5zZyon2k@john-p8/
+  https://lore.kernel.org/mptcp/DMM23MFOQ7ZL.3P1ZUMR0MKVEM@gmail.com/
+- [lore] Re: [PATCH] selftests: mptcp: pm_nl_ctl: print sizeof() with %zu — Hangbin Liu
+  https://lore.kernel.org/mptcp/auqMbPZ7fCCiXKR2@fedora/
 
-## 2026-10-21
-- [gh] Issue #645: Packetdrill: upstream MPTCP support
-  https://github.com/multipath-tcp/mptcp_net-next/issues/645
+## 2026-11-03
+- [lore] Re: [PATCH bpf v2 14/15] bpf, sockmap: Keep the rest of the cork after a redirect — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179374188416.488855.8465787275984951547@kernel.org/
+- [lore] Re: [PATCH bpf v2 09/15] bpf, sockmap: Check the TCP state in recvmsg() — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179374188255.488855.9131092470801455035@kernel.org/
+- [lore] Re: [PATCH bpf v2 07/15] bpf, sockmap: Check the target of an egress redirect before each send — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179374188061.488855.10389706003415159913@kernel.org/
+- [lore] Re: [PATCH bpf v2 06/15] bpf, sockmap: Give no progs to a TCP listener — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179374187870.488855.7800063583184291863@kernel.org/
+- [lore] Re: [PATCH bpf v2 03/15] bpf, sockmap: Don't let an SK_PASS verdict cover the next message — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179374187706.488855.8366350890804573396@kernel.org/
+- [lore] Re: [PATCH] selftests: mptcp: pm_nl_ctl: print sizeof() with %zu — Matthieu Baerts
+  https://lore.kernel.org/mptcp/95b7fa18-19a1-465b-ba2f-649b93d0cedf@kernel.org/
 
