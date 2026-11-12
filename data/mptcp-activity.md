@@ -2,6 +2,20 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
+## 2026-11-12
+- [gh] Issue #648: Blocking send() never returns after all subflows died by RTO: msk goes to CLOSE without sk_err or SEND_SHUTDOWN
+  https://github.com/multipath-tcp/mptcp_net-next/issues/648
+- [gh] Issue #647: Orphaned msk sends MP_FASTCLOSE 60 s after close() while the peer is still reading; the tail of the stream is lost
+  https://github.com/multipath-tcp/mptcp_net-next/issues/647
+- [lore] Re: [PATCH net 2/2] mptcp: avoid wrapping blackhole timeout — gang.yan
+  https://lore.kernel.org/mptcp/a5e30ae63ebb4a71327031211b50b33230e50004@linux.dev/
+- [lore] Re: [PATCH net 1/2] tcp: avoid wrapping Fast Open blackhole timeout — Kuniyuki Iwashima
+  https://lore.kernel.org/mptcp/avVX-3s3AYwtxQe7@google.com/
+- [lore] Re: [PATCH mptcp-next v25 8/8] mptcp: defer read_sock cleanup to mptcp_worker — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179445957978.488855.18074378536120470954@kernel.org/
+- [lore] Re: [PATCH mptcp-next v25 7/8] mptcp: sync mptcp skb cb layout with tcp one — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179445957892.488855.11648346256985509007@kernel.org/
+
 ## 2026-11-11
 - [lore] Re: [PATCH iproute2-net v2] mptcp: limits: fix JSON support — patchwork-bot+netdevbpf
   https://lore.kernel.org/mptcp/179435580518.128546.9097595420555036368.git-patchwork-notify@kernel.org/
