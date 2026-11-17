@@ -2,23 +2,33 @@
 <!-- 数据源：lore.kernel.org/mptcp 邮件列表 + GitHub multipath-tcp/mptcp_net-next 仓库 -->
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
-## 2026-11-16
-- [lore] Re: [PATCH mptcp-next v28 00/11] Reduce the differences between TCP and MPTCP for TLS usage — MPTCP CI
-  https://lore.kernel.org/mptcp/9063ffe1-9e85-24d5-efdb-a842f1e80e2f@gmail.com/
-- [lore] Re: [PATCH mptcp-next v28 10/11] mptcp: sync mptcp skb cb layout with tcp one — sashiko-bot
-  https://lore.kernel.org/mptcp/sashiko-outbox-216512@kernel.org/
-- [lore] Re: [PATCH mptcp-next v28 09/11] mptcp: drop data after DATA_FIN before skb init — sashiko-bot
-  https://lore.kernel.org/mptcp/sashiko-outbox-216443@kernel.org/
-- [lore] Re: [PATCH mptcp-next v28 02/11] selftests: mptcp: connect: check TFO SIOCINQ overflow — sashiko-bot
-  https://lore.kernel.org/mptcp/sashiko-outbox-216349@kernel.org/
-- [lore] [PATCH mptcp-next v28 11/11] mptcp: defer read_sock cleanup to mptcp_worker — Geliang Tang
-  https://lore.kernel.org/mptcp/f2ed3479f40b044646d03ccbfe0347c7f6a40dc7.1794810809.git.tanggeliang@kylinos.cn/
-- [lore] [PATCH mptcp-next v28 10/11] mptcp: sync mptcp skb cb layout with tcp one — Geliang Tang
-  https://lore.kernel.org/mptcp/af0a3423548713de827ea0597b8b637fde99e3b2.1794810809.git.tanggeliang@kylinos.cn/
+## 2026-11-17
+- [lore] Re: [PATCH net v4 3/3] net: mptcp: verify the token slot in mptcp_token_iter_next() — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179490863464.3133.2064838572417107624@kernel.org/
+- [lore] Re: [PATCH net v4 2/3] net: mptcp: reject token 0 in mptcp_token_get_sock() — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179490863332.3133.3484259413562043053@kernel.org/
+- [lore] Re: [PATCH net v4 1/3] net: mptcp: take token lookup references with acquire ordering — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179490863184.3133.11284908359551272618@kernel.org/
+- [lore] Re: [PATCH net 0/3] tcp, mptcp: fix receive buffer sizing and peek accounting — MPTCP CI
+  https://lore.kernel.org/mptcp/8811c9b7-dbbc-1931-0d30-eb35cd11a872@gmail.com/
+- [lore] Re: [PATCH mptcp-net v13] mptcp: hide sequence numbers in Netlink diagnostics — MPTCP CI
+  https://lore.kernel.org/mptcp/91ad8bb4-6bd1-5eee-8c58-0bff9364ea65@gmail.com/
+- [lore] Re: [PATCH net v5 2/3] net: mptcp: reject token 0 in mptcp_token_get_sock() — kernel test robot
+  https://lore.kernel.org/mptcp/202611171407.G0WgWRA6-lkp@intel.com/
 
-## 2026-11-15
-- [lore] Re: [PATCH net v4 0/3] mptcp token hash ordering and token 0 lookups — netdev-bot+sinfo
-  https://lore.kernel.org/mptcp/179477352802.3291.1988416076108255044@kernel.org/
+## 2026-11-16
+- [lore] [PATCH v2 net-next 7/7] selftest: packetdrill: Add test for tcp_collapse(). — Kuniyuki Iwashima
+  https://lore.kernel.org/mptcp/20261116230555.2305867-8-kuniyu@google.com/
+- [lore] [PATCH v2 net-next 6/7] tcp: Batch memory accounting in tcp_collapse(). — Kuniyuki Iwashima
+  https://lore.kernel.org/mptcp/20261116230555.2305867-7-kuniyu@google.com/
+- [lore] [PATCH v2 net-next 5/7] tcp: Allocate all new skb before collapsing. — Kuniyuki Iwashima
+  https://lore.kernel.org/mptcp/20261116230555.2305867-6-kuniyu@google.com/
+- [lore] [PATCH v2 net-next 4/7] tcp: Skip collapsing if collapsed skb is less-dense. — Kuniyuki Iwashima
+  https://lore.kernel.org/mptcp/20261116230555.2305867-5-kuniyu@google.com/
+- [lore] [PATCH v2 net-next 3/7] tcp: Stop collapsing if not bloated. — Kuniyuki Iwashima
+  https://lore.kernel.org/mptcp/20261116230555.2305867-4-kuniyu@google.com/
+- [lore] [PATCH v2 net-next 2/7] tcp: Don't collapse high density skb. — Kuniyuki Iwashima
+  https://lore.kernel.org/mptcp/20261116230555.2305867-3-kuniyu@google.com/
 
 ## 2026-11-12
 - [gh] Issue #648: Blocking send() never returns after all subflows died by RTO: msk goes to CLOSE without sk_err or SEND_SHUTDOWN
