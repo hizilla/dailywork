@@ -3,32 +3,18 @@
 <!-- 请勿手动编辑，会被下次 Actions 运行覆盖 -->
 
 ## 2026-11-20
-- [lore] Re: [PATCH net 0/7] mptcp: misc fixes for v7.4-rc4 — Matthieu Baerts
-  https://lore.kernel.org/mptcp/7be30913-ab2c-4aef-b7e8-5a250b4eedf0@kernel.org/
-- [lore] Re: [PATCH net 3/3] mptcp: exclude MSG_PEEK from receive buffer autotuning — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179516297471.3136.7019370824354358240@kernel.org/
-- [lore] Re: [PATCH net 2/3] net: bound receive window predictions before narrowing — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179516297347.3136.13553293180683672285@kernel.org/
-- [lore] Re: [PATCH net 1/3] tcp: saturate window-to-memory conversions at INT_MAX — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179516297210.3136.8495911905614638988@kernel.org/
-- [lore] Re: [PATCH net 3/3] mptcp: exclude MSG_PEEK from receive buffer autotuning — Lin Lei
-  https://lore.kernel.org/mptcp/20261120080558.2866468-1-llleigoing@gmail.com/
-- [lore] Re: [PATCH net v2] mptcp: exclude MSG_PEEK from receive buffer autotuning — netdev-bot+sinfo
-  https://lore.kernel.org/mptcp/179516143562.3291.17266753897945843390@kernel.org/
-
-## 2026-11-19
-- [lore] Re: [PATCH mptcp-next v6] mptcp: bpf: fix NULL deref and UAF in bpf_mptcp_sock_from_subflow() — netdev-bot+sashiko
-  https://lore.kernel.org/mptcp/179512721473.3133.14387325104477927814@kernel.org/
-- [lore] Re: [PATCH mptcp-net] mptcp: gate diag sequence counters on CAP_NET_ADMIN — MPTCP CI
-  https://lore.kernel.org/mptcp/8aeb11a0-4c69-38a6-283d-10d6c0f1e7f5@gmail.com/
-- [lore] Re: [PATCH v3 net-next 5/7] tcp: Allocate all new skb before collapsing. — Kuniyuki Iwashima
-  https://lore.kernel.org/mptcp/av9U9w4wGpO7HmDY@google.com/
-- [lore] [PATCH mptcp-net] mptcp: gate diag sequence counters on CAP_NET_ADMIN — Dominik Maier
-  https://lore.kernel.org/mptcp/20261119192159.2646113-1-dmnk@google.com/
-- [lore] Re: [PATCH mptcp-next v3] selftests: mptcp: print stats before socket closure — Matthieu Baerts
-  https://lore.kernel.org/mptcp/74cf0906-cc11-4cdb-8997-af79bb21231f@kernel.org/
-- [lore] Re: [PATCH mptcp-net v2] mptcp: fix use-after-free of the subflow context on the delegated list — Matthieu Baerts
-  https://lore.kernel.org/mptcp/4e209707-bdc4-415a-923b-4ac1d2006ecf@kernel.org/
+- [lore] Re: [PATCH net-next v3 3/3] mptcp: limit blackhole_timeout to one day — Matthieu Baerts
+  https://lore.kernel.org/mptcp/38afe45e-7c7d-4b91-9436-020ded6ca6fc@kernel.org/
+- [lore] Re: [PATCH net-next v3 2/3] mptcp: avoid wrapping blackhole timeout — Matthieu Baerts
+  https://lore.kernel.org/mptcp/cff77c51-64d1-4cc0-9da3-41832d3015b5@kernel.org/
+- [lore] Re: [PATCH net-next v3 1/3] tcp: avoid wrapping Fast Open blackhole timeout — Matthieu Baerts
+  https://lore.kernel.org/mptcp/656870cc-3a3b-433c-ba8a-dc883c4fb414@kernel.org/
+- [lore] Re: [PATCH mptcp-next v29 7/8] mptcp: sync mptcp skb cb layout with tcp one — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179520011363.3133.7044883277405636164@kernel.org/
+- [lore] Re: [PATCH mptcp-next v29 6/8] mptcp: remove CB offset field — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179520011242.3133.5608778876652732838@kernel.org/
+- [lore] Re: [PATCH mptcp-next v29 5/8] mptcp: encapsulate CB DSN field access with helpers — netdev-bot+sashiko
+  https://lore.kernel.org/mptcp/179520011112.3133.14475010950011269195@kernel.org/
 
 ## 2026-11-12
 - [gh] Issue #648: Blocking send() never returns after all subflows died by RTO: msk goes to CLOSE without sk_err or SEND_SHUTDOWN
